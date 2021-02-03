@@ -6,6 +6,24 @@ nav_order: 3
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
 
+# Lesson 1: Learning GitHub
+
+## Lesson objectives 
+- Create a GitHub repository.
+- Create folders and files.
+- Edit a markdown file.
+
+### Create a new GitHub repository
+- Ensure you have created a GitHub account and logged into it.
+- From your GitHub main page, click on the green **New Repository** button. This is the repository (storage location) where the content of your website will be hosted. 
+  - Provide a name for your repository. The name you enter will determine the URL of your repository.
+    - i.e. ```https://github.com/<your-github-username>/<your-repo-name>```
+	- e.g. ```https://github.com/jasonbrodeur/test-pages```
+- Check the box to **Initialize this repository with a README**
+- Click the **Create repository** button
+- Your browser will now open to the top-level page of the repository. Your repository will contain one file: **README.md**. 
+
+
 <!--
 
 After ensuring that you've followed the [Preparatory steps](preparation), open Tableau and follow along with the workshop recording or slides. 
