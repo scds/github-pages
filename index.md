@@ -10,7 +10,7 @@ nav_order: 1
 
 <img src="assets/img/DASH-advert.png" alt="Workshop Title Slide" width="720">
 <br>
-# An Introduction to GitHub and GitHub Pages. 
+# Getting started with GitHub and GitHub Pages. 
 Maybe you've heard of GitHub and would like to learn more about how it works. Maybe you've heard how it's possible to make easy and simple webpages using GitHub and GitHub Pages and want to try. Or maybe, you knew none of this but are intrigued nonetheless. In any of those cases, this tutorial is for you.  
 
 In this tutorial, you will learn how to use a suite of related tools([GitHub](https://github.com/), [GitHub Pages](https://pages.github.com/), [Markdown](https://www.markdownguide.org/getting-started/), and [GitHub Desktop](https://desktop.github.com/)) to create and manage repositories of files, and build simple websites with ease! 
