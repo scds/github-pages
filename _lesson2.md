@@ -6,6 +6,14 @@ nav_order: 3
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
 
+
+## GitHub Pages Video
+<iframe width="1487" height="723" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- [markdown.org's Markdown Guide](https://www.markdownguide.org/getting-started/)
+- [markdownguide.org's Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
+- [Markdown Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
+
 <!--
 
 After ensuring that you've followed the [Preparatory steps](preparation), open Tableau and follow along with the workshop recording or slides. 
