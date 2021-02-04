@@ -14,6 +14,10 @@ In this lesson, you'll learn how to use GitHub Pages to turn the markdown files 
 - Customize your web pages; create a website
 - Embed multimedia content
 
+## Lesson video
+The following video demonstrates each of the steps outlined below in text:
+<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/fbed2775-7252-4c33-977f-8e232fc6caa3/public?autoplay=false&automute=false"></iframe>
+
 ## 1. A GitHub Pages explainer
 <iframe width="864" height="514" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
