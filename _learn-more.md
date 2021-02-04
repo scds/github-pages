@@ -14,6 +14,12 @@ nav_order: 4
 - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Daring Fireball's Markdown Introduction](https://daringfireball.net/projects/markdown/)
 
+### More about Jekyll
+*From [jekyllrb.com](https://jekyllrb.com/):*
+>“Jekyll is a static site generator. You give it text written in your favorite markup language and it uses layouts to create a static website. You can tweak how you want the site URLs to look, what data gets displayed on the site, and more.”
+- GitHub pages uses jekyll to turn your markdown files (hosted in your GitHub repo) into HTML files and presents them on your desired website. 
+- Jekyll [web page](https://jekyllrb.com/) and Jekyll project [on GitHub](https://github.com/jekyll/jekyll).
+
 <!--
 
 ## More info and other tools
