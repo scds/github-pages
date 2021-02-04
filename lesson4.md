@@ -90,7 +90,7 @@ In this step, you will *clone* your existing GitHub repository to your local com
 ## 4. Push changes to GitHub (remote) repository
 - To check if there are connected remote repositories use the command: ```git remote -v```
 - Push changes to the target GitHub repository using the command: ```git push origin main```
-  - In this example -- which is the default case -- **origin** specifies the remote (i.e. Github) repository that is the target of your 'push'. **main** specifies the branch of the git repository that you're working on as the source data.
+  - In this example -- which is the default case -- **origin** specifies the remote (i.e. GitHub) repository that is the target of your 'push'. **main** specifies the branch of the git repository that you're working on as the source data.
 - Verify your changes in your GitHub repository.
 
 ## 5. Make changes in the GitHub (remote) repository
