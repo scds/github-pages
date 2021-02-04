@@ -51,20 +51,13 @@ In this step, you'll create a file and folder in your repository and upload a fi
 - Make sure you are located within the ```images``` folder (you should see your ```temp.txt``` file). 
 - Click ```Add file > Upload files```. 
 - Select an image from your computer to upload. If you want to download something from the web, try to use something that is not copyrighted or is royalty free ([e.g.](https://www.pexels.com/royalty-free-images/))
+- **Commit your changes**
 
-
-We want to create a folder named ```images``` in the top level of the repository. This folder will hold image content that we want to share on our webpage. 
-- **NOTE**: In GitHub, a folder can't be created until there is a file inside of it. This means that to create an empty folder, you will have to [create a temporary file](https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser) inside of it at the same time. 
-
-You can , you need to add a trailing slash (/) to the name, and you need to create a file within the folder], since empty folders aren't saved. You can always delete this file later.
-	- In the **Name your file...** box, enter ```docs/index.md```. Click **Commit change**. You will now have a folder named ```docs``` in your repository with a file named ```index.md```.
-
-
+Finished? Navigate to [Lesson 2](lesson2), to learn how to use Markdown to format your text for the web. 
 
 
 <!--
 
-After ensuring that you've followed the [Preparatory steps](preparation), open Tableau and follow along with the workshop recording or slides. 
 
 ## Workshop recording
 
@@ -83,6 +76,5 @@ View the original [here](https://echo360.ca/media/4378b2ec-7d0c-4632-a1e4-5a8076
 
 ## Worksheets
 **Coming soon!**
-
 
 -->
