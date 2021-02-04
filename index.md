@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Getting started with GitHub and GitHub Pages
+title: Home
 description: A Data Analysis Support Hub Tutorial
 nav_order: 1
 ---
