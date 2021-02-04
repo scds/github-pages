@@ -13,6 +13,10 @@ In this lesson, you'll learn how to use GitHub Pages to turn the markdown files 
 - Push changes back to GitHub (and pull new changes back down)
 - Fork a repository
 
+## Lesson video
+The following video demonstrates each of the steps outlined below in text:
+<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/99e82d8b-81a2-485e-afc6-236bd169c898/public?autoplay=false&automute=false"></iframe>
+
 [**Go to GitHub Desktop Instructions**](#github-desktop)  |  [**Go to git Instructions**](#git)
 
 # GitHub Desktop
