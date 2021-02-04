@@ -53,7 +53,7 @@ In this step, you'll create a file and folder in your repository and upload a fi
 - Select an image from your computer to upload. If you want to download something from the web, try to use something that is not copyrighted or is royalty free ([e.g.](https://www.pexels.com/royalty-free-images/))
 - **Commit your changes**
 
-Finished? Navigate to [Lesson 2](lesson2), to learn how to use Markdown to format your text for the web. 
+**Finished?** Navigate to [Lesson 2](lesson2), to learn how to use Markdown to format your text for the web. 
 
 
 <!--
