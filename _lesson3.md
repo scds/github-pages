@@ -1,134 +1,89 @@
 ---
 layout: default
-title: Lesson 2 - Learn Markdown
-nav_order: 4
+title: Lesson 3 - GitHub Pages
+nav_order: 5
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
+# Lesson 3: Creating web pages with GitHub Pages
+In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning webpage.
 
-# Lesson 2: Learn Markdown 
-One of the really nice things about GitHub (and GitHub Pages, which you'll learn about later) is that you can use Markdown to format text on a web page without the use (or knowledge!) of HTML coding. This makes it really easy to create content. In this section, you'll learn a bit more about Markdown and how to use it to create formatted text. 
+## 1. A GitHub Pages explainer
+<iframe width="864" height="514" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Lesson objectives 
-- Learn about Markdown
-- Practice creating web-ready content with Markdown
-- Learn how to create special symbols and equations using HTML code
+## 2. Explore features and settings | Set up GitHub Pages
+In this step, you will explore some of the functionality available in a GitHub repository, which includes GitHub Pages. 
+- Ensure that you've created two Markdown files in the ```docs``` folder (```index.md``` and one other), as outlined in [Lesson 2](lesson2).
+- Click through the various top-level tabs in the repository to explore the features that are available
+![GitHub repository tabs](/assets/img/github-tabs.png)
+  - ```Issues``` allow you, collaborators, and external users to report problems with your code and suggest changes
+  - ```Pull requests``` lists any requests from external users to merge their code into yours to provide new functionality
+  - ```Actions``` allow you to run automate processes from within your GitHub repository
+  - ```Projects``` is a Trello-like task planner 
+  - ```Wiki``` is a wiki for yourself and collaborators
+  - ```Security``` lets you configure security features for your repository and code
+  - ```Insights``` shows stats on contributions, viewership, and use of your repository
+  - ```Settings``` allows you to configure a variety of other features within your repository
+- Open the ```Settings``` Tab. Briefly explore the various options on the side panel.
+- Go to ```Settings > Options```. Scroll down to the **GitHub Pages** section
+  - For the **Source**, set ```Branch:main``` and set the folder to ```/(root)``` and click **Save**. This directs GitHub pages to the top-level of your repository for your website content.
+  - Scroll back down and click ```Choose a theme``` to select a theme for your web page
+- Congratulations, your website is ready. The link will be provided in the **GitHub Pages** section.
+  - **NOTE**: You may initially receive a ```404 error```, but after a minute, your website will appear with the content from ```index.md``` as the landing page.
+  - **NOTE2**: By default, GitHub Pages expects at least one file in the root folder named ```index.md```. This file becomes the homepage for the web page (i.e. ```index.md``` is translated to ```index.html```.
 
-## 1. What is Markdown? 
-Borrowed shamelessly from Github's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) page: 
-> Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
+## 3. Customize pages | What is jekyll?
+You may have noticed by now that there is another file (```_config.yml```) in your root folder that you didn't create or put there. This is your configuration file, and it's written in a language called [YAML](https://en.wikipedia.org/wiki/YAML). The ```config.yml``` file was created at the time that you turned on GitHub Pages, and it provides instructions to a static site generator software called [jekyll](https://jekyllrb.com/). GitHub pages uses jekyll in the background to convert your Markdown file(s) to formatted HTML to display as web pages. 
 
-Markdown uses simple notation to apply simple formatting rules. Since it's pretty much just plain text, it's transferrable and much simpler than marked-up text like HTML or even Word or Google documents. It's also very readable in its plain text format, which is nice. For much of the writing that you do for the web, Markdown is good enough. Github uses Markdown for its documents (this document was created in markdown), as does a variety of other web platforms (Reddit and Trello, as examples). 
-
-## 2. Add content to index.md
-
-### Add a title and front matter
-In [Lesson 3](lesson3), you will use [GitHub Pages](https://pages.github.com/) and a program called [jekyll](https://jekyllrb.com/) to turn your markdown files into web pages. In preparation for this, you will want to add some [front matter](https://jekyllrb.com/docs/front-matter/) to your markdown file. Front matter provides information about the web page's presentation and structure (title, layout, page order in a list, etc.). 
-- Open your ```index.md``` file for editing. Remove any text that was in there from Lesson 1.
-- Using the GitHub editor, copy the text below and paste it at the top (including the dashes):
-
+There is ***a lot*** that you can do with *jekyll* (within GitHub Pages and as a standalone application on your computer) to generate customized webpages. While only the theme information is set in your file initially, there are many ways that you can [customize it](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#default-plugins).  
+Here, we'll add a few changes to improve your website's functionality and appearance:
+- Use the GitHub editor to open your ```_config.yml``` file for editing.
+- Replace the contents of the ```config.yml``` file with the text below (by copying and pasting)
 ```
----
-title: <enter your title here>
-layout: default
-nav_order: 1
----
+title: <your web page title> # EDIT: Fill this in
+description: <description of your web page> # EDIT: Fill this in
+
+remote_theme: pmarsceill/just-the-docs # Borrowing the theme from https://github.com/pmarsceill/just-the-docs
+github_repo_url: "https://github.com/scds/github-pages" # EDIT: REPLACE WITH THE URL TO YOUR WEBPAGE
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page. (true or false)
+heading_anchors: true
+
+# Activate a "Back to top" link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+
+# A footer with "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "View this content on GitHub"
+gh_edit_repository: "https://github.com/iSci-3A12/intro-github-markdown" # EDIT: ADD THE URL TO YOUR GITHUB REPO
+gh_edit_branch: "master" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Include plugins for relative links and a remote theme
+plugins:
+  - jekyll-relative-links
+  - jekyll-remote-theme
 ```
+- **NOTE**: The function of each line is explained in comments (i.e. any text on a line that comes after a ```#``` symbol.)
+- Edit the information for the four lines tagged with **EDIT:** in the comments.
+- **COMMIT** your changes.
 
-Don't worry if this information looks a bit weird when you preview the page--it won't appear on your final web page.  
-
-## 3. Use Markdown to add content to index.md
-Using the [Mastering Markdown guide](https://guides.github.com/features/mastering-markdown/) and/or [markdownguide.org's Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/) (or other guides you find on the web) as a reference, enter text beneath the front matter to create a fictional document that contains most of the following elements: 
-- Headings of a number of different levels
-- bolded, italicized text 
-- insert an image from the web
-- insert the image that you uploaded to the ```images``` folder in this repository
-- An ordered list
-- A bulleted list
-- A link to another website
-- A snippet of code
-- A table
-- And finally, an emoji! (you can use the [Markdown Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) as a reference)
-
-### Some Notes
-- Use the **Preview changes** tab to see (mostly) how it will look on your page. 
-- Markdown doesn't add new lines to a document in the same way as a document editors like MS Word. Sometimes you might hit enter to start a new line in the editor, only to find that it has been added to the first paragraph when rendered. To avoid this you can try one of the following: 
-  - Enter an extra blank line
-  - Leave two blank spaces at the end of the sentence (this is interpretted as the end of a paragraph)
-  - Insert the HTML tag ```<br>``` to create a break line in the rendered text. You can use multiple break tags to create more blank lines.  
+## 4. Embedding videos and other web content
+As you've already experienced, the nice thing about GitHub Pages (using jekyll) is that it doesn't just accept Markdown--it also accepts HTML code, meaning that you can insert things like embed codes to insert multimedia content.
+- Find a video on YouTube that you want to embed into your webpage. Once it begins playing, right click and click on ```Copy embed code```. You should have copied to your clipboard something like this: 
+```
+<iframe width="1487" height="691" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
+- Paste the embed code into one of your Markdown documents. **COMMIT** your changes.
+  - **NOTE**: The embedded video won't show in your rendered Markdown file--it will only appear on your final webpage. 
+  - **NOTE**: Remember that it may take a couple of minutes for changes to propagate from your GitHub repo to your webpage.
+- You can do the same with other content that provides embed codes, like Google Slideshows, for example.
 <br>
-**Commit your changes** and enjoy the products of your hard work!
-
-## 4. Create a second markdown page
-The website you make in the next lesson will have two pages. Here, you are going to create the second page. 
-- In the top level of your repository (remember, you can click the ```<> Code``` tab to get there), create a new markdown file. Name it as you wish, but ensure that it is free of spaces and special characters and ends in ```.md``` (e.g. ```pagetwo.md``` works just fine). 
-- As done earlier, add front matter with a title. Set the ```nav_order``` value to 2 (this will inform GitHub Pages to make this the second menu item in your website), as shown below: 
-```
----
-title: <enter a different title here>
-layout: default
-nav_order: 2
----
-```
-- Add a few sentences and **commit your changes**.
-
-## 5. [Optional] Adding scientific symbols and equations
-While the simplicity of Markdown is usually an asset, there are times when you need to present text using more complex formatting--for example, when using symbols and equations. Given that these pieces aren't baked into Markdown, you'll need to resort to using HTML coding. This involves a bit more technical skill, but it's something that you can figure out pretty quickly with the help of Google. 
-
-### Symbols
-The W3schools [HTML Symbols reference page](https://www.w3schools.com/html/html_symbols.asp) is the best place to go for comprehensive instruction on adding symbols using HTML. It also provides a variety of symbol lists for easy reference.
-
-As discussed in the previous resource, you can use an *entity name* or an *entity number* to create a symbol. For example, to create the alpha symbol, you can do either of the following: 
-- Entering the *entity name* ```&alpha;``` will print the symbol &alpha;, OR
-- Entering the *entity number* ```&#945;``` will print the symbol &alpha;  
-
-**Note**: Don't forget the semicolon at the end of the code!
-
-### Subscripts and superscripts
-Subscripts and superscripts can be created by putting placing the following HTML tags before and after the desired numerals/symbols: 
-- For subscripts, place ```<sub>``` in front and ```</sub>``` after the character(s) you would like to subscript.
-  - e.g. ```H<sub>2</sub>O``` produces H<sub>2</sub>O
-- For superscripts, place ```<sup>``` in front and ```</sup>``` after the character(s) you would like to superscript.
-  - e.g. ```&delta;<sup>18</sup>O``` produces &delta;<sup>18</sup>O
-
-### Single-line equations  
-Single-line equations can be created by combining symbols and sub/superscripts as required. 
-- e.g. ```h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x``` produces h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
-
-### Create some symbols/equations
-- Open your second markdown page for editing, and write a few symbols and an equation or two. 
-- **Commit your changes**
-
-### More complex equations (in case you're interested)
-If you require a more complex equation, it's probably easiest to insert the equation as an image. There are some interesting ways to do this dynamically using [Latex](https://www.latex-project.org/) if you're interested in exploring. You can find more information on these approaches in this [Stack Overflow answer](https://stackoverflow.com/a/47798853).
-
-Mastered Markdown? It's time to move to [Lesson 3](lesson3) and make a website with GitHub Pages!
-
-## GitHub Pages Video
-<iframe width="1487" height="723" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-<!--
-
-After ensuring that you've followed the [Preparatory steps](preparation), open Tableau and follow along with the workshop recording or slides. 
-
-## Workshop recording
-
-<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/4378b2ec-7d0c-4632-a1e4-5a8076a494da/public?autoplay=false&automute=false"></iframe>
-
-View the original [here](https://echo360.ca/media/4378b2ec-7d0c-4632-a1e4-5a8076a494da/public).
-
-
-## Workshop slides
-
-<div style="position:relative;padding-top:66.25%;">
-<iframe src="//docs.google.com/viewer?url=https://github.com/scds/intro-tableau/raw/main/assets/docs/tableau_20201118.pdf?dl=0&hl=en_US&embedded=true" class="gde-frame" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" scrolling="no"></iframe>
-</div>
-[Download as a PDF](https://github.com/scds/intro-tableau/raw/main/assets/docs/tableau_20201118.pdf)
-<br>
-
-## Worksheets
-**Coming soon!**
-
-
--->
+**Have your website up and running?** Head to the [fourth and final lesson](lesson4) to learn how to sync this repository between GitHub and your local computer. 
