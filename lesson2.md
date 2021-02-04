@@ -9,6 +9,10 @@ nav_order: 5
 # Lesson 2: Learn Markdown 
 One of the really nice things about GitHub (and GitHub Pages, which you'll learn about later) is that you can use Markdown to format text on a web page without the use (or knowledge!) of HTML coding. This makes it really easy to create content. In this section, you'll learn a bit more about Markdown and how to use it to create formatted text. 
 
+## Lesson video
+The following video demonstrates each of the steps outlined below in text:
+<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/ba194214-c372-4df6-b74d-2cdf8157f996/public?autoplay=false&automute=false"></iframe>
+
 ## Lesson objectives 
 - Learn about Markdown
 - Practice creating web-ready content with Markdown
