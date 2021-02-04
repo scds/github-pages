@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lesson 2 - Learn Markdown
-nav_order: 4
+nav_order: 5
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->

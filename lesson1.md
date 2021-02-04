@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Lesson 1 - Learn GitHub
-nav_order: 3
+nav_order: 4
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
 
-# Lesson 1: Learning GitHub
+# Lesson 1: Learn GitHub
 In this first lesson, you'll get some introductory experience creating a GitHub repository and populating it with files from the web interface. 
 
 ## Lesson objectives 

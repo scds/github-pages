@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Lesson 3 - GitHub Pages
-nav_order: 5
+nav_order: 6
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
-# Lesson 3: Creating web pages with GitHub Pages
+# Lesson 3: Create web pages with GitHub Pages
 In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning webpage.
 
 ## Lesson objectives 
