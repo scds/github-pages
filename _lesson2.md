@@ -1,18 +1,72 @@
 ---
 layout: default
-title: Getting Started
-nav_order: 3
+title: Lesson 2 - Learn Markdown
+nav_order: 4
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
+
+# Lesson 2: Learn Markdown 
+One of the really nice things about GitHub (and GitHub Pages, which you'll learn about later) is that you can use Markdown to format text on a web page without the use (or knowledge!) of HTML coding. This makes it really easy to create content. In this section, you'll learn a bit more about Markdown and how to use it to create formatted text. 
+
+## Lesson objectives 
+- Learn about Markdown
+- Practice creating web-ready content with Markdown
+- Learn how to create special symbols and equations using HTML code
+
+## 1. What is Markdown? 
+Borrowed shamelessly from Github's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) page: 
+> Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
+
+Markdown uses simple notation to apply simple formatting rules. Since it's pretty much just plain text, it's transferrable and much simpler than marked-up text like HTML or even Word or Google documents. It's also very readable in its plain text format, which is nice. For much of the writing that you do for the web, Markdown is good enough. Github uses Markdown for its documents (this document was created in markdown), as does a variety of other web platforms (Reddit and Trello, as examples). 
+
+## 2. Add content to index.md
+
+### Add a title and front matter
+In [Lesson 3](lesson3), you will use [GitHub Pages](https://pages.github.com/) and a program called [jekyll](https://jekyllrb.com/) to turn your markdown files into web pages. In preparation for this, you will want to add some [front matter](https://jekyllrb.com/docs/front-matter/) to your markdown file. Front matter provides information about the web page's presentation and structure (title, layout, page order in a list, etc.). 
+- Open your ```index.md``` file for editing. Remove any text that was in there from Lesson 1.
+- Using the GitHub editor, copy the text below and paste it at the top (including the dashes):
+
+```
+---
+title: <enter your title here>
+layout: default
+nav_order: 1
+---
+```
+
+Don't worry if this information looks a bit weird when you preview the page--it won't appear on your final web page.  
+
+## 3. Use Markdown to add content to index.md
+Using the [Mastering Markdown guide](https://guides.github.com/features/mastering-markdown/) and/or [markdownguide.org's Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/) (or other guides you find on the web) as a reference, enter text beneath the front matter to create a fictional document that contains most of the following elements: 
+- Headings of a number of different levels
+- bolded, italicized text 
+- insert an image from the web
+- insert the image that you uploaded to the ```images``` folder in this repository
+- An ordered list
+- A bulleted list
+- A link to another website
+- A snippet of code
+- A table
+- And finally, an emoji! (you can use the [Markdown Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md) as a reference)
+
+### Some Notes
+- Use the **Preview changes** tab to see (mostly) how it will look on your page. 
+- Markdown doesn't add new lines to a document in the same way as a document editors like MS Word. Sometimes you might hit enter to start a new line in the editor, only to find that it has been added to the first paragraph when rendered. To avoid this you can try one of the following: 
+  - Enter an extra blank line
+  - Leave two blank spaces at the end of the sentence (this is interpretted as the end of a paragraph)
+  - Insert the HTML tag ```<br>``` to create a break line in the rendered text. You can use multiple break tags to create more blank lines.  
+<br>
+**Commit your changes** and enjoy the products of your hard work!
+
+## 4. Create a second markdown page
+
+
 
 
 ## GitHub Pages Video
 <iframe width="1487" height="723" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-- [markdown.org's Markdown Guide](https://www.markdownguide.org/getting-started/)
-- [markdownguide.org's Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
-- [Markdown Emoji cheat sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
 <!--
 
