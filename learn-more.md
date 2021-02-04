@@ -24,3 +24,7 @@ nav_order: 7
 If you're interested in learning more about how you can do version control in your local folders and connect them to GitHub repositories see: 
 - [This intro to Git and GitHub tutorial](https://ubc-library-rc.github.io/intro-git/) from UBC Library Research Commons.
 - [This intro to GitHub Desktop tutorial](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/creating-your-first-repository-using-github-desktop) from GitHub.
+
+## More about version control with git
+- [Official git documentation page](https://git-scm.com/book/en/v2/)
+- [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/) 
