@@ -101,5 +101,6 @@ In this step, you will *clone* your existing GitHub repository to your local com
 - Pull (fetch and merge) changes: ```git pull origin master```
   - **Note:** ```git pull``` actually runs two processes: ```fetch``` (get changes) and ```merge``` (place in your directory) 
 - Inspect the changes to your local repository.
-
+<br>
+<br>
 **Congratulations, you've made it to the end!** If you'd like to explore more, head to the [Learn More](learn-more) page.

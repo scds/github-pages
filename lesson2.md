@@ -101,5 +101,6 @@ Single-line equations can be created by combining symbols and sub/superscripts a
 
 ### More complex equations (in case you're interested)
 If you require a more complex equation, it's probably easiest to insert the equation as an image. There are some interesting ways to do this dynamically using [Latex](https://www.latex-project.org/) if you're interested in exploring. You can find more information on these approaches in this [Stack Overflow answer](https://stackoverflow.com/a/47798853).
-
+<br>
+<br>
 **Mastered Markdown?** It's time to move to [Lesson 3](lesson3) and make a website with GitHub Pages!

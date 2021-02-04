@@ -8,6 +8,12 @@ nav_order: 5
 # Lesson 3: Creating web pages with GitHub Pages
 In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning webpage.
 
+## Lesson objectives 
+- Explore GitHub repository functionality
+- Create a webpage from markdown files using GitHub Pages & jekyll
+- Customize your web pages; create a website
+- Embed multimedia content
+
 ## 1. A GitHub Pages explainer
 <iframe width="864" height="514" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -89,5 +95,6 @@ As you've already experienced, the nice thing about GitHub Pages (using jekyll) 
   - **NOTE**: The embedded video won't show in your rendered Markdown file--it will only appear on your final webpage. 
   - **NOTE**: Remember that it may take a couple of minutes for changes to propagate from your GitHub repo to your webpage.
 - You can do the same with other content that provides embed codes, like Google Slideshows, for example.
+<br>
 <br>
 **Have your website up and running?** Head to the [fourth and final lesson](lesson4) to learn how to sync this repository between GitHub and your local computer. 

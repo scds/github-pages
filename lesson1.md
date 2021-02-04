@@ -52,7 +52,8 @@ In this step, you'll create a file and folder in your repository and upload a fi
 - Click ```Add file > Upload files```. 
 - Select an image from your computer to upload. If you want to download something from the web, try to use something that is not copyrighted or is royalty free ([e.g.](https://www.pexels.com/royalty-free-images/))
 - **Commit your changes**
-
+<br>
+<br>
 **Finished?** Navigate to [Lesson 2](lesson2), to learn how to use Markdown to format your text for the web. 
 
 
