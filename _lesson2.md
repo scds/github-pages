@@ -60,9 +60,49 @@ Using the [Mastering Markdown guide](https://guides.github.com/features/masterin
 **Commit your changes** and enjoy the products of your hard work!
 
 ## 4. Create a second markdown page
+The website you make in the next lesson will have two pages. Here, you are going to create the second page. 
+- In the top level of your repository (remember, you can click the ```<> Code``` tab to get there), create a new markdown file. Name it as you wish, but ensure that it is free of spaces and special characters and ends in ```.md``` (e.g. ```pagetwo.md``` works just fine). 
+- As done earlier, add front matter with a title. Set the ```nav_order``` value to 2 (this will inform GitHub Pages to make this the second menu item in your website), as shown below: 
+```
+---
+title: <enter a different title here>
+layout: default
+nav_order: 2
+---
+```
+- Add a few sentences and **commit your changes**.
 
+## 5. [Optional] Adding scientific symbols and equations
+While the simplicity of Markdown is usually an asset, there are times when you need to present text using more complex formatting--for example, when using symbols and equations. Given that these pieces aren't baked into Markdown, you'll need to resort to using HTML coding. This involves a bit more technical skill, but it's something that you can figure out pretty quickly with the help of Google. 
 
+### Symbols
+The W3schools [HTML Symbols reference page](https://www.w3schools.com/html/html_symbols.asp) is the best place to go for comprehensive instruction on adding symbols using HTML. It also provides a variety of symbol lists for easy reference.
 
+As discussed in the previous resource, you can use an *entity name* or an *entity number* to create a symbol. For example, to create the alpha symbol, you can do either of the following: 
+- Entering the *entity name* ```&alpha;``` will print the symbol &alpha;, OR
+- Entering the *entity number* ```&#945;``` will print the symbol &alpha;  
+
+**Note**: Don't forget the semicolon at the end of the code!
+
+### Subscripts and superscripts
+Subscripts and superscripts can be created by putting placing the following HTML tags before and after the desired numerals/symbols: 
+- For subscripts, place ```<sub>``` in front and ```</sub>``` after the character(s) you would like to subscript.
+  - e.g. ```H<sub>2</sub>O``` produces H<sub>2</sub>O
+- For superscripts, place ```<sup>``` in front and ```</sup>``` after the character(s) you would like to superscript.
+  - e.g. ```&delta;<sup>18</sup>O``` produces &delta;<sup>18</sup>O
+
+### Single-line equations  
+Single-line equations can be created by combining symbols and sub/superscripts as required. 
+- e.g. ```h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x``` produces h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
+### Create some symbols/equations
+- Open your second markdown page for editing, and write a few symbols and an equation or two. 
+- **Commit your changes**
+
+### More complex equations (in case you're interested)
+If you require a more complex equation, it's probably easiest to insert the equation as an image. There are some interesting ways to do this dynamically using [Latex](https://www.latex-project.org/) if you're interested in exploring. You can find more information on these approaches in this [Stack Overflow answer](https://stackoverflow.com/a/47798853).
+
+Mastered Markdown? It's time to move to [Lesson 3](lesson3) and make a website with GitHub Pages!
 
 ## GitHub Pages Video
 <iframe width="1487" height="723" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
