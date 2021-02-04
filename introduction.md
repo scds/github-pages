@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Preparation
+title: Introduction
 nav_order: 3
 ---
 
@@ -9,7 +9,7 @@ nav_order: 3
 -->
 
 
-# Workshop preparation 
+# Introduction
 
 ## 1. Introduction
 - (optional) Watch the following short introductory video ***What is GitHub?***  
@@ -17,23 +17,8 @@ nav_order: 3
 <br>
 - (optional) Follow along with the introductory slides. These will also be presented during the workshop.
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSB6guZ6tdX2wPcsMAzviOOQrcRAeiUNEIAtIRniSx4C3D0Gl35wi60jB5sRlB9eGfs8dVcNvweXxHY/embed?start=false&loop=true&delayms=3000" frameborder="0" width="720" height="434" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-## 2. Create a GitHub account
-- Navigate to [GitHub](https://github.com) and sign up for an account if you don't already have one. 
-- After registering, sign in to your account.
 
-## 3a. Install GitHub Desktop (for Windows or Mac users)
-- If you are using a **Windows** or **Mac** computer, download and install [GitHub Desktop](https://desktop.github.com/)
-  - More guidance can be found in guides from [GitHub](https://docs.github.com/en/desktop).
-- Sign into GitHub Desktop using your GitHub credentials
-- In ```File > Options > Git```, enter the name and email that you want associated with your work ([More help](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/configuring-git-for-github-desktop)).
-- (optional) Once configured, the main GitHub Desktop page will show any repositories that exist in your GitHub account. For those who use GitHub Desktop or git already, you can add any local repositories that already exist on your computer.
-
-## 3b. Install git (for Linux users or adventurous Windows/Mac users)
-- **If you are a Linux user**, GitHub Desktop will not work for you. Instead, you'll need to learn how to install and use git and git Bash. 
-- Navigate to the [official git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and follow the instructions to download and install for your operating system.
-
-
-When you've finished preparing, navigate to your [first lesson](lesson1) to start using GitHub.
+When you're ready, navigate to your [first lesson](lesson1) to start using GitHub.
 
 
 <!--
