@@ -28,16 +28,35 @@ A repository is a container for related materials (i.e. folders and files), that
 ## 2. Add files and folders
 In this step, you'll create a file and folder in your repository and upload a file from your computer to your new folder. You will eventually use all of these items to create your first webpage with GitHub Pages 
  
-### Create a new file 
-- In the top-level repository page (i.e. click on the ```<> Code``` button , click ```Add file > Create new file```
+### Create a file 
+- In the top-level repository page (which you can navigate to by clicking the ```<> Code``` tab), click ```Add file > Create new file```
 - When prompted to name your file, title it ```index.md```. This creates an empty text file that GitHub will assume contains Markdown code.
-- Click **Commit change**.
- 
-### Create a new folder 
-We want to create a folder named ```docs``` in the top level of the repository. This is where the web page content will live. We also want to create a file in this folder called ```index.md```. This will be the home page for your website.
+- Scroll down to the **Commit new file** section. Add a short description (or use the suggested one) and click ```Commit change```.
+  - **NOTE**: Unlike programs such as Google Docs, GitHub does not save your changes automatically. Rather, you have to instruct it to **Commit** the changes, which takes a snapshot of the file and saves it as the newest version. 
+  - **NOTE**: There are two comment boxes that can be filled in when committing changes. The short description **is required**--ideally, it comtains a brief message about the changes you made to the file. An optional larger description box can be filled out, as well. 
+  
+### Edit your text file
+- Click on your ```index.html``` file to view it, and then click the edit button (pencil icon) to switch to editing mode
+- Add a bit of text to this file (anything is fine for now). 
+- When finished editing, modify the commit message and add a longer description (if desired) and **commit your changes**. 
 
-  - NOTE1: To create a file, simply enter the desired name and file extension. 
-  - NOTE2: To create a folder, you need to add a trailing slash (/) to the name, and you need to [create a file within the folder](https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser), since empty folders aren't saved. You can always delete this file later.
+### View your changes and change history
+- While viewing your ```index.md``` file, explore the ```Blame``` and ```History``` buttons to better understand how GitHub keeps track of and visualizes file changes. 
+
+### Create a folder 
+- In the top-level repository page, click ```Add file > Create new file```
+- When prompted to name your file, enter ```images/temp.txt```. **Commit your changes**. This will create a folder called ```images``` and an empty file inside of it called ```temp.txt``` (which can be deleted later, once you've moved more files into the images folder).
+
+### Upload a file 
+- Make sure you are located within the ```images``` folder (you should see your ```temp.txt``` file). 
+- Click ```Add file > Upload files```. 
+- Select an image from your computer to upload. If you want to download something from the web, try to use something that is not copyrighted or is royalty free ([e.g.](https://www.pexels.com/royalty-free-images/))
+
+
+We want to create a folder named ```images``` in the top level of the repository. This folder will hold image content that we want to share on our webpage. 
+- **NOTE**: In GitHub, a folder can't be created until there is a file inside of it. This means that to create an empty folder, you will have to [create a temporary file](https://github.com/KirstieJane/STEMMRoleModels/wiki/Creating-new-folders-in-GitHub-repository-via-the-browser) inside of it at the same time. 
+
+You can , you need to add a trailing slash (/) to the name, and you need to create a file within the folder], since empty folders aren't saved. You can always delete this file later.
 	- In the **Name your file...** box, enter ```docs/index.md```. Click **Commit change**. You will now have a folder named ```docs``` in your repository with a file named ```index.md```.
 
 
