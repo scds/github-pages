@@ -19,7 +19,7 @@ In this lesson, you'll learn how to use GitHub Pages to turn the markdown files 
 ## 1. Clone your repository to your computer
 In this step, you will *clone* your existing GitHub repository to your local computer so that you can work on files locally.
 ### In GitHub
-- In the root of your GitHub repository (click on the ```<> Code``` tab to get there) click the green ```Code``` button  ![Green button with the word code](assets/img/code-button.png)
+- In the root of your GitHub repository (click on the ```<> Code``` tab to get there) click the green ```Code``` button  ![Green button with the word code](assets/img/code-button-sm.png)
 - Copy the https code (e.g. ```https://github.com/scds/github-pages.git```)  
 ### In GitHub Desktop
 - Go to ```File > Clone repository```, and select to add by ```URL```
@@ -68,7 +68,7 @@ See [git documentation](https://git-scm.com/book/en/v2/Getting-Started-First-Tim
 ## 1. Clone your repository to your computer
 In this step, you will *clone* your existing GitHub repository to your local computer so that you can work on files locally.
 ### In GitHub
-- In the root of your GitHub repository (click on the ```<> Code``` tab to get there) click the green ```Code``` button  ![Green button with the word code](assets/img/code-button.png)
+- In the root of your GitHub repository (click on the ```<> Code``` tab to get there) click the green ```Code``` button  ![Green button with the word code](assets/img/code-button-sm.png)
 - Copy the https code (e.g. ```https://github.com/scds/github-pages.git```)  
 ### In git Bash
 - Open Git Bash in the desired directory for your repository. Enter the command: ```git clone <copied url>```, where ```<copied_url>``` is the URL you copied in the previous step.

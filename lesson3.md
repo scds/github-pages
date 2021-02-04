@@ -39,6 +39,7 @@ There is ***a lot*** that you can do with *jekyll* (within GitHub Pages and as a
 Here, we'll add a few changes to improve your website's functionality and appearance:
 - Use the GitHub editor to open your ```_config.yml``` file for editing.
 - Replace the contents of the ```config.yml``` file with the text below (by copying and pasting)
+
 ```
 title: <your web page title> # EDIT: Fill this in
 description: <description of your web page> # EDIT: Fill this in
@@ -71,6 +72,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-remote-theme
 ```
+
 - **NOTE**: The function of each line is explained in comments (i.e. any text on a line that comes after a ```#``` symbol.)
 - Edit the information for the four lines tagged with **EDIT:** in the comments.
 - **COMMIT** your changes.
@@ -78,9 +80,11 @@ plugins:
 ## 4. Embedding videos and other web content
 As you've already experienced, the nice thing about GitHub Pages (using jekyll) is that it doesn't just accept Markdown--it also accepts HTML code, meaning that you can insert things like embed codes to insert multimedia content.
 - Find a video on YouTube that you want to embed into your webpage. Once it begins playing, right click and click on ```Copy embed code```. You should have copied to your clipboard something like this: 
+
 ```
 <iframe width="1487" height="691" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
+
 - Paste the embed code into one of your Markdown documents. **COMMIT** your changes.
   - **NOTE**: The embedded video won't show in your rendered Markdown file--it will only appear on your final webpage. 
   - **NOTE**: Remember that it may take a couple of minutes for changes to propagate from your GitHub repo to your webpage.
