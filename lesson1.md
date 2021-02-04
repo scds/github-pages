@@ -15,7 +15,7 @@ In this first lesson, you'll get some introductory experience creating a GitHub 
 - Create and edit a markdown file.
 
 ## Lesson video
-The following video demonstrates each of the steps outlined below in text
+The following video demonstrates each of the steps outlined below in text:
 <iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/db64dd93-a736-4936-9517-8d0a18c16a3e/public?autoplay=false&automute=false"></iframe>
 
 ## 1. Create a new GitHub repository
