@@ -1,7 +1,7 @@
 # Getting started with GitHub and GitHub Pages
 Materials DASH tutorial: **Getting started with GitHub and GitHub Pages**  
 
-This repository contains workshop files, as well as files used to create the [workshop webpage](https://scds.githib.io/github-pages) with GitHub Pages.
+This repository contains workshop files, as well as files used to create the [workshop webpage](https://scds.github.io/github-pages) with GitHub Pages.
 
 
 Contributions by the following individuals: 
