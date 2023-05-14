@@ -1,12 +1,11 @@
 ---
 layout: default
-title: Lesson 1 - Learn GitHub
-nav_order: 4
+title: Lesson 2 - Learn GitHub
+nav_order: 2
+parent: Lessons
 ---
 
-<!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
-
-# Lesson 1: Learn GitHub
+# Lesson 2: Learn GitHub
 In this first lesson, you'll get some introductory experience creating a GitHub repository and populating it with files from the web interface. 
 
 ## Lesson objectives 
@@ -16,7 +15,7 @@ In this first lesson, you'll get some introductory experience creating a GitHub 
 
 ## Lesson video
 The following video demonstrates each of the steps outlined below in text:
-<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/db64dd93-a736-4936-9517-8d0a18c16a3e/public?autoplay=false&automute=false"></iframe>
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/db64dd93-a736-4936-9517-8d0a18c16a3e/public?autoplay=false&automute=false"></iframe>
 
 ## 1. Create a new GitHub repository
 A repository is a container for related materials (i.e. folders and files), that allows for them to be managed (stored, version-tracked) and shared together. Usually, you create a separate repository for each project that you are working on. [Here are the New York Times' GitHub repositories](https://github.com/nytimes), for example.
@@ -57,30 +56,13 @@ In this step, you'll create a file and folder in your repository and upload a fi
 - Click ```Add file > Upload files```. 
 - Select an image from your computer to upload. If you want to download something from the web, try to use something that is not copyrighted or is royalty free ([e.g.](https://www.pexels.com/royalty-free-images/))
 - **Commit your changes**
-<br>
-<br>
-**Finished?** Navigate to [Lesson 2](lesson2), to learn how to use Markdown to format your text for the web. 
 
-
-<!--
-
-
-## Workshop recording
-
-<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/4378b2ec-7d0c-4632-a1e4-5a8076a494da/public?autoplay=false&automute=false"></iframe>
-
-View the original [here](https://echo360.ca/media/4378b2ec-7d0c-4632-a1e4-5a8076a494da/public).
-
-
-## Workshop slides
-
-<div style="position:relative;padding-top:66.25%;">
-<iframe src="//docs.google.com/viewer?url=https://github.com/scds/intro-tableau/raw/main/assets/docs/tableau_20201118.pdf?dl=0&hl=en_US&embedded=true" class="gde-frame" style="position:absolute;top:0;left:0;width:100%;height:100%;border:none;" scrolling="no"></iframe>
+<div style="display: flex;">
+<div style="flex-grow: 1;" markdown="1">
+[🡨 Lesson 1](lesson1){: .btn .btn-outline} 
 </div>
-[Download as a PDF](https://github.com/scds/intro-tableau/raw/main/assets/docs/tableau_20201118.pdf)
-<br>
 
-## Worksheets
-**Coming soon!**
-
--->
+<div markdown="1">
+[Lesson 3 🡪](lesson3){: .btn .btn-outline}
+</div>
+</div>

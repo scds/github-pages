@@ -1,9 +1,17 @@
 title: GitHub and GitHub Pages # *** Enter workshop title here 
-subtitle: 'A Data Analysis Support Hub Tutorial'
-
-remote_theme: scds/just-the-docs
 github_repo_url: "https://scds.github.io/github-pages/" # ***Enter workshop URL (in github pages) here
-color_scheme: dash
+gh_edit_repository: "https://github.com/scds/github-pages" #*** ENTER the github URL for your repo
+ga_tracking: G-F9JFEFZ01G # *** This needs to be set up in Google Analytics once you know the website URL (ask Jay to do this). Then the tracking code needs to be taken from Google Analytics and pasted here.  
+#  _____       _   _   _          _      _                            
+# | ____|   __| | (_) | |_       / \    | |__     ___   __   __   ___ 
+# |  _|    / _` | | | | __|     / _ \   | '_ \   / _ \  \ \ / /  / _ \
+# | |___  | (_| | | | | |_     / ___ \  | |_) | | (_) |  \ V /  |  __/
+# |_____|  \__,_| |_|  \__|   /_/   \_\ |_.__/   \___/    \_/    \___|
+
+
+subtitle: 'A Data Analysis Support Hub Tutorial'
+remote_theme: multipixels/just-the-docs-mcmaster-demo
+color_scheme: mcmaster
 # logo: "https://github.com/scds/intro-voyant/blob/main/assets/img/dmds-tableau.png?raw=true"
 
 # Heading anchor links appear on hover over h1-h6 tags in page content
@@ -21,13 +29,13 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 # Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+# Footer last edited timestamp
+# last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+# last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "View this content on GitHub"
-gh_edit_repository: "https://github.com/scds/github-pages" #*** ENTER the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
@@ -38,8 +46,34 @@ plugins:
   - jekyll-seo-tag
 
 # Google Analytics Tracking
-ga_tracking: G-F9JFEFZ01G # *** This needs to be set up in Google Analytics once you know the website URL (ask Jay to do this). Then the tracking code needs to be taken from Google Analytics and pasted here.  
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
 license_url: "http://creativecommons.org/licenses/by/4.0/"
 license_name: "Creative Commons Attribution 4.0 International License"
 license_image_url: "https://i.creativecommons.org/l/by/4.0/88x31.png"
+
+# Callout titles an colors
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+# Logo replacement of workshop title
+# logo: "/assets/img/logo.png"
+
+# Web icon
+favicon_ico: "/assets/img/template/favicon.ico"
+
+# enables copying code - NOTE: requires JavaScript, only works in HTTPS (secure contexts)
+enable_copy_code_button: true

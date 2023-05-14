@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lesson 3 - GitHub Pages
-nav_order: 6
+nav_order: 3
+parent: Lessons
 ---
 
 <!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
@@ -99,6 +100,13 @@ As you've already experienced, the nice thing about GitHub Pages (using jekyll) 
   - **NOTE**: The embedded video won't show in your rendered Markdown file--it will only appear on your final webpage. 
   - **NOTE**: Remember that it may take a couple of minutes for changes to propagate from your GitHub repo to your webpage.
 - You can do the same with other content that provides embed codes, like Google Slideshows, for example.
-<br>
-<br>
-**Have your website up and running?** Head to the [fourth and final lesson](lesson4) to learn how to sync this repository between GitHub and your local computer. 
+
+<div style="display: flex;">
+<div style="flex-grow: 1;" markdown="1">
+[🡨 Lesson 2](lesson2){: .btn .btn-outline} 
+</div>
+
+<div markdown="1">
+[Lesson 4 🡪](lesson4){: .btn .btn-outline}
+</div>
+</div>

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Lesson 4 - GitHub Desktop
-nav_order: 7
+nav_order: 4
+parent: Lessons
 ---
 
 # Lesson 4 - Sync with GitHub Desktop (and maybe git) 
@@ -105,6 +106,13 @@ In this step, you will *clone* your existing GitHub repository to your local com
 - Pull (fetch and merge) changes: ```git pull origin master```
   - **Note:** ```git pull``` actually runs two processes: ```fetch``` (get changes) and ```merge``` (place in your directory) 
 - Inspect the changes to your local repository.
-<br>
-<br>
-**Congratulations, you've made it to the end!** If you'd like to explore more, head to the [Learn More](learn-more) page.
+
+<div style="display: flex;">
+<div style="flex-grow: 1;" markdown="1">
+[🡨 Lesson 3](lesson3){: .btn .btn-outline} 
+</div>
+
+<div markdown="1">
+[Conclusion 🡪](../conclusion){: .btn .btn-outline}
+</div>
+</div>

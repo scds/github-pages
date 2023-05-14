@@ -1,48 +1,161 @@
 ---
 layout: default
-title: Lesson 2 - Learn Markdown
-nav_order: 5
+title: Lesson 1 - Learn Markdown
+nav_order: 1
+parent: Lessons
 ---
 
-<!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
+# Lesson 1: Learn Markdown 
 
-# Lesson 2: Learn Markdown 
-One of the really nice things about GitHub (and GitHub Pages, which you'll learn about later) is that you can use Markdown to format text on a web page without the use (or knowledge!) of HTML coding. This makes it really easy to create content. In this section, you'll learn a bit more about Markdown and how to use it to create formatted text. 
+Markdown is an easy way to format text without worrying about the formatting specifics, allowing you to focus on the content. You'll be using markdown to easily create our webpages later on in Lesson 3. In this section, you'll learn about markdown and how to use it to create formatted text.
 
 ## Lesson video
 The following video demonstrates each of the steps outlined below in text:
-<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/ba194214-c372-4df6-b74d-2cdf8157f996/public?autoplay=false&automute=false"></iframe>
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/ba194214-c372-4df6-b74d-2cdf8157f996/public?autoplay=false&automute=false"></iframe>
 
 ## Lesson objectives 
 - Learn about Markdown
 - Practice creating web-ready content with Markdown
-- Learn how to create special symbols and equations using HTML code
+- Learn how to create special symbols and equations using HTML code 
 
-## 1. What is Markdown? 
+## What is Markdown? 
 Borrowed shamelessly from GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) page: 
 > Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or *.
 
 Markdown uses simple notation to apply simple formatting rules. Since it's pretty much just plain text, it's transferrable and much simpler than marked-up text like HTML or even Word or Google documents. It's also very readable in its plain text format, which is nice. For much of the writing that you do for the web, Markdown is good enough. GitHub uses Markdown for its documents (this document was created in markdown), as does a variety of other web platforms (Reddit and Trello, as examples). 
 
-## 2. Add content to index.md
+You'll be using [**StackEdit**](https://stackedit.io/), an in-browser markdown editor, for this lesson to create and display markdown content. In Lesson 2, we'll be using GitHub to store and create markdown files.
 
-### Add a title and front matter
-In [Lesson 3](lesson3), you will use [GitHub Pages](https://pages.github.com/) and a program called [jekyll](https://jekyllrb.com/) to turn your markdown files into web pages. In preparation for this, you will want to add some [front matter](https://jekyllrb.com/docs/front-matter/) to your markdown file. Front matter provides information about the web page's presentation and structure (title, layout, page order in a list, etc.). 
-- Open your ```index.md``` file for editing. Remove any text that was in there from Lesson 1.
-- Using the GitHub editor, copy the text below and paste it at the top (including the dashes):
+## Setting up Stack Edit
 
+When you first go to [**StackEdit**](https://stackedit.io/), you'll see this page. Click the "Start Writing" button at the top of the page. 
+
+<img src="../assets/img/lessons/stackedit1.png" alt="Front page of StackEdit" width="100%">
+
+If this is your first time using StackEdit, you will see a lot of pre-generated content. For this workshop, you'll want to go to the top left "Toggle Explorer" button, and create a new file. You can name the file anything you'd like. After creating your new file, close the file explorer by clicking on the "Toggle Explorer" button or the "Close Explorer" button, and then delete any pre-generated content.
+
+<img src="../assets/img/lessons/stackedit2.png" alt="Creating a new file on StackEdit" width="100%">
+
+On the left hand side is the text editor. This is where you'll be editing your markdown file. On the right hand side is the markdown preview window. This is where StackEdit converts your markdown file into our new fancy formatted text content!
+
+## Using Markdown to create content!
+
+Below, you'll be shown how to create different markdown elements. Feel free to go to your StackEdit tab and follow along or test the elements out. While this workshop won't cover everything Markdown has to offer, you'll be provided with additional resources at the end of the lesson that covers more advanced markdown elements.
+
+### Paragraphs and New Lines
+
+Just like in typical text editors, you can create regular text just by typing... well, text.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```md
+This is some text.
 ```
----
-title: <enter your title here>
-layout: default
-nav_order: 1
----
+
+{: .label .label-green }
+Output
+
+This is some text.
+
+</div>
+
+However, one change in Markdown is the way you create new lines. If you simply start typing on the next page, the output will mash the two lines together onto the same line.
+
+<div class="code-example" markdown="1">
+
+{: .label }
+Input
+```md
+This is some text.
+This is some text on a new line.
 ```
 
-Don't worry if this information looks a bit weird when you preview the page--it won't appear on your final web page.  
+{: .label .label-green }
+Output
 
-## 3. Use Markdown to add content to index.md
-Using the [Mastering Markdown guide](https://guides.github.com/features/mastering-markdown/) and/or [markdownguide.org's Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/) (or other guides you find on the web) as a reference, enter text beneath the front matter to create a fictional document that contains most of the following elements: 
+This is some text.
+This is some text on a new line.
+
+</div>
+
+There are three ways to seperate lines of texts.
+
+1. Insert a blank line between your two paragraph. This creates two seperate paragraphs with spacing between them.
+    <div class="code-example" markdown="1">
+
+    {: .label }
+    Input
+    ```md
+   This is some text.
+
+   This is some text on a new line.
+    ```
+
+    {: .label .label-green }
+    Output
+
+    This is some text.
+
+    This is some text on a new line.
+
+    </div>
+
+2. End your paragraph with two spaces. This creates one paragraph, with a line break seperating them.
+    <div class="code-example" markdown="1">
+
+    {: .note }
+    Although this doesn't seem different compared to the first time we tried to create a new line, try highlighting the input! You'll notice that there are two spaces at the end of the first line.
+
+    {: .label }
+    Input
+    ```md
+   This is some text.  
+   This is some text on a new line.
+    ```
+
+    {: .label .label-green }
+    Output
+
+    This is some text.  
+    This is some text on a new line.
+
+    </div>
+
+3. Add a ```<br>``` HTML tag. This creates one paragraph, with a line break seperating them.
+    <div class="code-example" markdown="1">
+
+    {: .label }
+    Input
+    ```md
+   This is some text. <br>
+   This is some text on a new line.
+    ```
+
+    {: .label .label-green }
+    Output
+
+    This is some text. <br>
+    This is some text on a new line.
+
+    </div>
+
+### Headings
+
+### Text Emphasis
+
+### Lists
+
+### Links
+
+### Code Snippets
+
+### Images
+
+### Emojis
+
+ the [Mastering Markdown guide](https://guides.github.com/features/mastering-markdown/) and/or [markdownguide.org's Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/) (or other guides you find on the web) as a reference, enter text beneath the front matter to create a fictional document that contains most of the following elements: 
 - Headings of a number of different levels
 - bolded, italicized text 
 - insert an image from the web
@@ -105,6 +218,13 @@ Single-line equations can be created by combining symbols and sub/superscripts a
 
 ### More complex equations (in case you're interested)
 If you require a more complex equation, it's probably easiest to insert the equation as an image. There are some interesting ways to do this dynamically using [Latex](https://www.latex-project.org/) if you're interested in exploring. You can find more information on these approaches in this [Stack Overflow answer](https://stackoverflow.com/a/47798853).
-<br>
-<br>
-**Mastered Markdown?** It's time to move to [Lesson 3](lesson3) and make a website with GitHub Pages!
+
+<div style="display: flex;">
+<div style="flex-grow: 1;" markdown="1">
+[🡨 Lessons](../lessonsPage){: .btn .btn-outline} 
+</div>
+
+<div markdown="1">
+[Lesson 2 🡪](lesson2){: .btn .btn-outline}
+</div>
+</div>
