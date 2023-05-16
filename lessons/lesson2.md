@@ -144,6 +144,11 @@ One of GitHub's quirks is that it does not allow you to create empty directories
 
 <img src="../assets/img/lessons/github15.png" alt="Image of GitHub file upload menu" width="100%">
 
+## Key Points / Summary
+- A repository is a collection of related files with the ability to version control.
+- You can create, edit, and upload files, view file version history, and create new directories in GitHub. 
+- You have to commit changes to files to save a new version of them.
+
 <div style="display: flex;">
 <div style="flex-grow: 1;" markdown="1">
 [🡨 Lesson 1](lesson1){: .btn .btn-outline} 

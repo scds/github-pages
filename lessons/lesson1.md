@@ -613,6 +613,12 @@ h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
 
 If you require a more complex equation, it's probably easiest to insert the equation as an image. There are some interesting ways to do this dynamically using [LaTeX](https://www.latex-project.org/) if you're interested in exploring. You can find more information on these approaches in this [Stack Overflow answer](https://stackoverflow.com/a/47798853).
 
+## Key Points / Summary
+
+- Markdown is an easy way to format text and content.
+- You can create paragraphs, headers, text emphasis, lists, links, images, code snippets, equations, and more using Markdown.
+- The content of this website is made almost entirely in Markdown!
+
 ## Additional Resources
 
 There is a lot more you can do with Markdown. This section will provide you with some additional resources that goes more in-depth with specific Markdown features, like tables, task lists, footnotes, and more!
