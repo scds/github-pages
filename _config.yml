@@ -10,7 +10,7 @@ ga_tracking: G-F9JFEFZ01G # *** This needs to be set up in Google Analytics once
 
 
 subtitle: 'A Data Analysis Support Hub Tutorial'
-remote_theme: multipixels/just-the-docs-mcmaster-demo
+remote_theme: scds/jtd-mcmaster
 color_scheme: mcmaster
 # logo: "https://github.com/scds/intro-voyant/blob/main/assets/img/dmds-tableau.png?raw=true"
 
@@ -69,11 +69,5 @@ callouts:
     title: Warning
     color: red
 
-# Logo replacement of workshop title
-# logo: "/assets/img/logo.png"
-
 # Web icon
 favicon_ico: "/assets/img/template/favicon.ico"
-
-# enables copying code - NOTE: requires JavaScript, only works in HTTPS (secure contexts)
-enable_copy_code_button: true

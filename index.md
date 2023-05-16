@@ -5,7 +5,7 @@ description: A Data Analysis Support Hub Tutorial
 nav_order: 1
 ---
 
-<img src="assets/img/DASH-advert.png" alt="Workshop Title Slide" width="800">
+<img src="assets/img/DASH-advert.png" alt="Workshop Title Slide" width="100%">
 <br>
 
 # Getting started with GitHub and GitHub Pages. 

@@ -86,7 +86,7 @@ In Lesson 3, you will use markdown files in GitHub to publish a simple webpage u
 In Lesson 4, you will use GitHub Desktop to interact with your GitHub repository in your local file system.
 
 ## [Optional] Introduction to GitHub
-(optional) Watch the following short introductory video ***How GitHub works***   
+(optional) Watch the following short introductory video **How GitHub works**  
 <iframe width="100%" height="416" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br>

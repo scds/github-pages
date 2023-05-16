@@ -11,16 +11,10 @@ nav_order: 3
 - After registering, sign in to your account.
 
 
-## 2. Install git and GitHub Desktop
+## 2. Install GitHub Desktop
 
 {: .warning }
 > GitHub doesn't currently support GitHub Desktop for **Linux** users. You will still be able to learn about Markdown, GitHub, and GitHub Pages without using GitHub Desktop. If you'd like to learn how to use GitHub with local development, feel free to attend our other workshop on git [**here**](https://scds.github.io/dash-webinars/vcgit.html).
-
-GitHub Desktop requires git to be installed.
-
-### Installing git
-- Download and install [**git**](https://git-scm.com/).
-  - Guidance can be found in documentation from git [**here**](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 ### Installing GitHub Desktop
 - Download and install [**GitHub Desktop**](https://desktop.github.com/).

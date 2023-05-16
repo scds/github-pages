@@ -37,15 +37,15 @@ You'll be using [**StackEdit**](https://stackedit.io/), an in-browser Markdown e
 
 ## Setting up StackEdit
 
-When you first go to [**StackEdit**](https://stackedit.io/), you'll see this page. Click the "Start Writing" button at the top of the page.
+- When you first go to [**StackEdit**](https://stackedit.io/), you'll see this page. Click the "Start Writing" button at the top of the page.
 
 <img src="../assets/img/lessons/stackedit1.png" alt="Front page of StackEdit" width="100%">
 
-If this is your first time using StackEdit, you will see a lot of pre-generated content. For this workshop, you'll want to go to the top left "Toggle Explorer" button, and create a new file. You can name the file anything you'd like. After creating your new file, close the file explorer by clicking on the "Toggle Explorer" button or the "Close Explorer" button, and then delete any pre-generated content.
+- If this is your first time using StackEdit, you will see a lot of pre-generated content. For this workshop, you'll want to go to the top left "Toggle Explorer" button, and create a new file. You can name the file anything you'd like. After creating your new file, close the file explorer by clicking on the "Toggle Explorer" button or the "Close Explorer" button, and then delete any pre-generated content.
 
 <img src="../assets/img/lessons/stackedit2.png" alt="Creating a new file on StackEdit" width="100%">
 
-On the left hand side is the text editor. This is where you'll be editing your Markdown file. On the right hand side is the Markdown preview window. This is where StackEdit converts your Markdown file into our new fancy formatted text content!
+- On the left hand side is the text editor. This is where you'll be editing your Markdown file. On the right hand side is the Markdown preview window. This is where StackEdit converts your Markdown file into our new fancy formatted text content!
 
 ## Using Markdown to create content!
 
