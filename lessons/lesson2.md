@@ -21,6 +21,10 @@ The following video demonstrates each of the steps outlined below in text:
 - Create folders and files.
 - Create and edit a markdown file.
 
+## So... what is GitHub?
+
+GitHub is a lot of of things.
+
 ## Create a new GitHub repository
 A repository is a container for related materials (i.e. folders and files), that allows for them to be managed (stored, version-tracked) and shared together. Usually, you create a separate repository for each project that you are working on. [Here are the New York Times' GitHub repositories](https://github.com/nytimes), for example.
 

@@ -5,27 +5,24 @@ nav_order: 3
 parent: Lessons
 ---
 
-<!-- Edit the content below for the workshop in question. Once you're ready to publish, remove the comment characters e.g. "<!--" at the start and end -->
 # Lesson 3: Create web pages with GitHub Pages
 In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning webpage.
 
+## Lesson video
+The following video demonstrates each of the steps outlined below in text:
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/fbed2775-7252-4c33-977f-8e232fc6caa3/public?autoplay=false&automute=false"></iframe>
+
 ## Lesson objectives 
-- Explore GitHub repository functionality
+<!-- - Explore GitHub repository functionality -->
 - Create a webpage from markdown files using GitHub Pages & jekyll
 - Customize your web pages; create a website
 - Embed multimedia content
 
-## Lesson video
-The following video demonstrates each of the steps outlined below in text:
-<iframe height="480" width="853" allowfullscreen frameborder=0 src="https://echo360.ca/media/fbed2775-7252-4c33-977f-8e232fc6caa3/public?autoplay=false&automute=false"></iframe>
-
-## 1. A GitHub Pages explainer
-<iframe width="864" height="514" src="https://www.youtube.com/embed/2MsN8gpT6jY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## 2. Explore features and settings | Set up GitHub Pages
+## <!-- Explore features and settings | --> Set up GitHub Pages
 In this step, you will explore some of the functionality available in a GitHub repository, which includes GitHub Pages. 
 - Ensure that you've created two Markdown files in the ```docs``` folder (```index.md``` and one other), as outlined in [Lesson 2](lesson2).
-- Click through the various top-level tabs in the repository to explore the features that are available
+
+<!-- - Click through the various top-level tabs in the repository to explore the features that are available
 ![GitHub repository tabs](/assets/img/github-tabs.png)
   - ```Issues``` allow you, collaborators, and external users to report problems with your code and suggest changes
   - ```Pull requests``` lists any requests from external users to merge their code into yours to provide new functionality
@@ -35,7 +32,8 @@ In this step, you will explore some of the functionality available in a GitHub r
   - ```Security``` lets you configure security features for your repository and code
   - ```Insights``` shows stats on contributions, viewership, and use of your repository
   - ```Settings``` allows you to configure a variety of other features within your repository
-- Open the ```Settings``` Tab. Briefly explore the various options on the side panel.
+- Open the ```Settings``` Tab. Briefly explore the various options on the side panel. -->
+
 - Go to ```Settings > Options```. Scroll down to the **GitHub Pages** section
   - For the **Source**, set ```Branch:main``` and set the folder to ```/(root)``` and click **Save**. This directs GitHub pages to the top-level of your repository for your website content.
   - Scroll back down and click ```Choose a theme``` to select a theme for your web page
