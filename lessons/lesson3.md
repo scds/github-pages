@@ -14,13 +14,40 @@ The following video demonstrates each of the steps outlined below in text:
 
 ## Lesson objectives 
 <!-- - Explore GitHub repository functionality -->
-- Create a webpage from markdown files using GitHub Pages & jekyll
+- Create a webpage from Markdown files using GitHub Pages & jekyll
 - Customize your web pages; create a website
 - Embed multimedia content
 
 ## <!-- Explore features and settings | --> Set up GitHub Pages
 In this step, you will explore some of the functionality available in a GitHub repository, which includes GitHub Pages. 
-- Ensure that you've created two Markdown files in the ```docs``` folder (```index.md``` and one other), as outlined in [Lesson 2](lesson2).
+- Ensure that you've created an `index.md` file as outlined in [Lesson 2](lesson2).
+- Go to ```Settings``` and look for the `Pages` button on the left hand side.
+
+<img src="../assets/img/lessons/pages1.png" alt="Image of where to find Pages settings menu" width="100%">
+
+- For the **Source**, ensure it is set to `Deplay from a branch`. 
+- For the **Branch**, select the `main` branch and select the root folder. Make sure to press `Save`!
+    - This tells GitHub to make our website with the files from the top-level of our repository.
+
+<img src="../assets/img/lessons/pages2.png" alt="Image of Pages settings" width="100%">
+
+- Congratulations, in just a moment, your website will be ready! While GitHub is creating your website, return to the top-level of your repository.
+- A new `Environments` section should appear soon on the right hand side. If it isn't there yet, wait a few more moments and refresh the page. When it appears, click on `github-pages`.
+
+<img src="../assets/img/lessons/pages3.png" alt="Image of new Environments tab" width="35%">
+
+- This will bring you to the Deployment History menu. If your website is ready, click on `View Deployment` to see your website. Otherwise, wait a few more moments and refresh the page.
+
+<img src="../assets/img/lessons/pages4.png" alt="Image of Deployment History menu" width="100%">
+
+{: .note }
+> You may receive a 404 error, but after a minute, your website will appear with the content from index.md as the landing page.
+>
+> By default, GitHub Pages expects at least one file in the root folder named index.md. This file becomes the homepage for the web page (i.e. index.md is translated to index.html.)
+
+- Your page will look rather basic (it may look different depending on what you put in your index.md). This is because we haven't provided GitHub with a Jekyll theme for our content. In the next section, we'll take a look at Jekyll, the different themes available to us, and how to set it up.
+
+<img src="../assets/img/lessons/pages5.png" alt="Initial website" width="100%">
 
 <!-- - Click through the various top-level tabs in the repository to explore the features that are available
 ![GitHub repository tabs](/assets/img/github-tabs.png)
@@ -34,27 +61,43 @@ In this step, you will explore some of the functionality available in a GitHub r
   - ```Settings``` allows you to configure a variety of other features within your repository
 - Open the ```Settings``` Tab. Briefly explore the various options on the side panel. -->
 
-- Go to ```Settings > Options```. Scroll down to the **GitHub Pages** section
-  - For the **Source**, set ```Branch:main``` and set the folder to ```/(root)``` and click **Save**. This directs GitHub pages to the top-level of your repository for your website content.
-  - Scroll back down and click ```Choose a theme``` to select a theme for your web page
-- Congratulations, your website is ready. The link will be provided in the **GitHub Pages** section.
-  - **NOTE**: You may initially receive a ```404 error```, but after a minute, your website will appear with the content from ```index.md``` as the landing page.
-  - **NOTE2**: By default, GitHub Pages expects at least one file in the root folder named ```index.md```. This file becomes the homepage for the web page (i.e. ```index.md``` is translated to ```index.html```.
+## What is Jekyll?
 
-## 3. Customize pages | What is jekyll?
-You may have noticed by now that there is another file (```_config.yml```) in your root folder that you didn't create or put there. This is your configuration file, and it's written in a language called [YAML](https://en.wikipedia.org/wiki/YAML). The ```config.yml``` file was created at the time that you turned on GitHub Pages, and it provides instructions to a static site generator software called [jekyll](https://jekyllrb.com/). GitHub pages uses jekyll in the background to convert your Markdown file(s) to formatted HTML to display as web pages. 
+<img src="../assets/img/lessons/jekyllLogo.svg" alt="Jekyll Logo" width="30%">
 
-There is ***a lot*** that you can do with *jekyll* (within GitHub Pages and as a standalone application on your computer) to generate customized webpages. While only the theme information is set in your file initially, there are many ways that you can [customize it](https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#default-plugins).  
-Here, we'll add a few changes to improve your website's functionality and appearance:
-- Use the GitHub editor to open your ```_config.yml``` file for editing.
-- Replace the contents of the ```config.yml``` file with the text below (by copying and pasting)
+[**Jekyll**](https://jekyllrb.com/) is a simple static website generator. In other words, Jekyll is what allows you to turn your Markdown files into a website. GitHub Pages comes with built-in Jekyll support, meaning that there is no need to ever download Jekyll.
 
-```
+With Jekyll, we can specify a theme we want to use for our website. There are thousands upon thousands of themes available, so take this opportunity to browse any of the following resources for something you like. 
+
+- [jamstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/)
+- [jekyllthemes.org](http://jekyllthemes.org/)
+- [jekyllthemes.io](https://jekyllthemes.io/)
+- [jekyll-themes.com](https://jekyll-themes.com/)
+
+{: .warning }
+> Take note that some themes may have additional steps or prerequisites for usage. Make sure to read the documentation guidelines given.
+
+This workshop's website (the one you're on right now!) is built using a modified version of the [Just the Docs](https://just-the-docs.com/) Jekyll theme. For the rest of the lesson, we will use the Just the Docs theme to showcase how a theme can be applied to a website.
+
+## Setting up our website for Jekyll and Just the Docs
+
+To apply our theme, we have to create a new file called `_config.yml` in the top-level of our repository.
+
+- Navigate back to the top-level and create a file called `_config.yml`. Don't commit just yet.
+
+This is your configuration file, and it's written in a language called [YAML](https://en.wikipedia.org/wiki/YAML) (it stands for Yet Another Markup Language. it's similar to Markdown). The `_config.yml` file provides instructions to Jekyll about how to build your website. Jekyll's config has a set of pre-defined properties, but themes can have their own properties as well (this is why it's important to read the theme's documentation!)
+
+There is ***a lot*** that you can do with Jekyll (within GitHub Pages and as a standalone application on your computer) to generate customized webpages. While only the theme information is set in your file initially, there are many ways that you can [customize it](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins). Here, we'll add a few changes to improve your website's functionality and appearance:
+
+- Set the contents of the ```_config.yml``` file with the text below (by copying and pasting).
+- Edit any of the fields to correspond with your own information.
+
+```yaml
 title: <your web page title> # EDIT: Fill this in
 description: <description of your web page> # EDIT: Fill this in
 
-remote_theme: pmarsceill/just-the-docs # Borrowing the theme from https://github.com/pmarsceill/just-the-docs
-github_repo_url: "https://github.com/scds/github-pages" # EDIT: REPLACE WITH THE URL TO YOUR WEBPAGE
+remote_theme: just-the-docs/just-the-docs # Borrowing the theme from https://github.com/pmarsceill/just-the-docs
+github_repo_url: "https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>" # EDIT: REPLACE WITH THE URL TO YOUR WEBPAGE
 
 # Heading anchor links appear on hover over h1-h6 tags in page content
 # allowing users to deep link to a particular heading on a page. (true or false)
@@ -64,14 +107,10 @@ heading_anchors: true
 back_to_top: true
 back_to_top_text: "Back to top"
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
 # A footer with "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
 gh_edit_link_text: "View this content on GitHub"
-gh_edit_repository: "https://github.com/iSci-3A12/intro-github-markdown" # EDIT: ADD THE URL TO YOUR GITHUB REPO
+gh_edit_repository: "https://github.com/<YOUR_USERNAME>/<YOUR_REPO_NAME>" # EDIT: ADD THE URL TO YOUR GITHUB REPO
 gh_edit_branch: "master" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
@@ -82,22 +121,49 @@ plugins:
   - jekyll-remote-theme
 ```
 
-- **NOTE**: The function of each line is explained in comments (i.e. any text on a line that comes after a ```#``` symbol.)
-- Edit the information for the four lines tagged with **EDIT:** in the comments.
-- **COMMIT** your changes.
+{: .note }
+> The function of each line is explained in comments (i.e. any text on a line that comes after a `#` symbol.) 
+>
+> Look through the document and update any of the fields with the necessary information.
 
-## 4. Embedding videos and other web content
-As you've already experienced, the nice thing about GitHub Pages (using jekyll) is that it doesn't just accept Markdown--it also accepts HTML code, meaning that you can insert things like embed codes to insert multimedia content.
-- Find a video on YouTube that you want to embed into your webpage. Once it begins playing, right click and click on ```Copy embed code```. You should have copied to your clipboard something like this: 
+- **Commit** your changes!
 
+When you're done with that, go back to the top-level of your repository and edit your `index.md` file. Jekyll will only process Markdown files that contain front matter text. Front matter shows up at the top of your Markdown file and it tells Jekyll how to process that file.
+
+- Include the text below at the top of your index.md file (include the dashes!)
+- Edit any of the fields to correspond with your own information and then **commit** your changes. An example is provided below.
+    - The `nav_order` is the numerical value assigned to your page. It's used when ordering your pages in the navigation menu for the Just the Docs theme. `nav_order` 1 means it'll be the first item in the list. If you add a new page, you can set it to 2 to be the second item in the list, and so on.
+
+```yaml
+---
+title: <enter your title here> 
+layout: default
+nav_order: 1
+---
 ```
-<iframe width="1487" height="691" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-```
 
-- Paste the embed code into one of your Markdown documents. **COMMIT** your changes.
-  - **NOTE**: The embedded video won't show in your rendered Markdown file--it will only appear on your final webpage. 
-  - **NOTE**: Remember that it may take a couple of minutes for changes to propagate from your GitHub repo to your webpage.
-- You can do the same with other content that provides embed codes, like Google Slideshows, for example.
+<img src="../assets/img/lessons/pages6.png" alt="Adding the front matter text" width="60%">
+
+If all went well, your website should now be using the Just the Docs template!
+
+<img src="../assets/img/lessons/pages7.png" alt="Website" width="100%">
+
+## Creating a new page with embedded YouTube content
+
+Creating new pages from here on is very quick and simple.
+
+- Go back to the top-level of your repository. 
+- Create a new Markdown file, and copy the front matter at the top.
+    - Don't forget to update the `nav_order`!
+
+Anything after the front matter is Markdown, just like usual. Below, you'll see a piece of embed code. This is HTML code provided by YouTube, allowing us to embed a video right into our website. To get the embed code of any video you'd like, read [this](https://support.google.com/youtube/answer/171780?hl=en) guide by YouTube. Otherwise, feel free to use the embed code provided below. 
+
+- Copy the embed code into your new Markdown file. Feel free to include any other Markdown elements you'd like.
+- **Commit** and save your file when you're done.
+
+```md
+<iframe width="800" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+```
 
 <div style="display: flex;">
 <div style="flex-grow: 1;" markdown="1">
