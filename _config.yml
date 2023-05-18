@@ -70,4 +70,4 @@ callouts:
     color: red
 
 # Web icon
-favicon_ico: "/assets/img/template/favicon.ico"
+# favicon_ico: "/assets/img/template/favicon.ico"

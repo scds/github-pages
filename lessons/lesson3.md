@@ -8,17 +8,16 @@ parent: Lessons
 # Lesson 3: Create web pages with GitHub Pages
 In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning webpage.
 
-## Lesson video
-The following video demonstrates each of the steps outlined below in text:
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/fbed2775-7252-4c33-977f-8e232fc6caa3/public?autoplay=false&automute=false"></iframe>
-
 ## Lesson objectives 
-<!-- - Explore GitHub repository functionality -->
 - Create a webpage from Markdown files using GitHub Pages & jekyll
 - Customize your web pages; create a website
 - Embed multimedia content
 
-## <!-- Explore features and settings | --> Set up GitHub Pages
+## Lesson video
+The following video demonstrates each of the steps outlined below in text:
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/fbed2775-7252-4c33-977f-8e232fc6caa3/public?autoplay=false&automute=false"></iframe>
+
+## Set up GitHub Pages
 In this step, you will explore some of the functionality available in a GitHub repository, which includes GitHub Pages. 
 - Ensure that you've created an `index.md` file as outlined in [Lesson 2](lesson2).
 - Go to ```Settings``` and look for the `Pages` button on the left hand side.
@@ -164,6 +163,11 @@ Anything after the front matter is Markdown, just like usual. Below, you'll see 
 ```md
 <iframe width="800" height="500" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ```
+
+## Key Points / Summary
+- GitHub Pages, combined with Jekyll, provides an easy way to create webpages quickly using Markdown
+- There are many Jekyll themes available
+- You can embed videos into your webpages
 
 <div style="display: flex;">
 <div style="flex-grow: 1;" markdown="1">

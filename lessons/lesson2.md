@@ -12,14 +12,14 @@ In this second lesson, you'll get some introductory experience creating a GitHub
 {:toc}
 1. TOC
 
-## Lesson video
-The following video demonstrates each of the steps outlined below in text:
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/db64dd93-a736-4936-9517-8d0a18c16a3e/public?autoplay=false&automute=false"></iframe>
-
 ## Lesson objectives 
 - Create a GitHub repository.
 - Create folders and files.
 - Create and edit a markdown file.
+
+## Lesson video
+The following video demonstrates each of the steps outlined below in text:
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/db64dd93-a736-4936-9517-8d0a18c16a3e/public?autoplay=false&automute=false"></iframe>
 
 ## So... what is GitHub?
 
@@ -147,6 +147,16 @@ One of GitHub's quirks is that it does not allow you to create empty directories
 - **Commit your changes**
 
 <img src="../assets/img/lessons/github15.png" alt="Image of GitHub file upload menu" width="100%">
+
+### Remove a file
+
+Let's take this chance to remove the temporary text file we created in the `images` folder. Since we have an image there, it should be safe to remove.
+
+- Go to your temporary text file in the `images` folder.
+- Click on the `...` button at the top right, and click `Delete file`.
+- **Commit** the deletion.
+
+<img src="../assets/img/lessons/github16.png" alt="Image of GitHub file upload menu" width="100%">
 
 ## Key Points / Summary
 - A repository is a collection of related files with the ability to version control.
