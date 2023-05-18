@@ -17,19 +17,20 @@ In this tutorial, you will learn how to use a suite of related tools ([Markdown]
 ## Prerequisites
 
 - A [GitHub.com](https://github.com/) account.
-- An installation of [git](https://git-scm.com/) (This will be covered in the Preparation page)
-- [GitHub Desktop](https://desktop.github.com/) installation (This will be covered in the Preparation page)
-    - Github Desktop is unavailable for Linux users. You will still be able to learn about Markdown, GitHub, and GitHub Pages.
+- [GitHub Desktop](https://desktop.github.com/) installation (This will be covered in the [Preparation](preparation) page)
+
+{: .warning }
+> GitHub Desktop is unavailable for Linux users, but you will still be able to learn about Markdown, GitHub, and GitHub Pages.
 
 ## Learning Objectives
 By the end of this tutorial, you will be able to: 
-- Describe the basics of versioning and versioning software; communicate their value
+- Describe the basics of versioning and versioning software and communicate their value
 - Explain the differences between git and GitHub, and describe how they work together
 - Use [Markdown](https://www.markdownguide.org/getting-started/) to format text in a simple yet effective manner
-- Create a [GitHub](https://github.com/) repository (from scratch and by cloning/forking an existing one)
+- Create a [GitHub](https://github.com/) repository
 - Create, edit, and manage versions of files in a GitHub repository
-- Use [GitHub Pages](https://pages.github.com/) to create simple static web pages using Jekyll
-- Use [GitHub Desktop](https://desktop.github.com/) and git to sync files between your desktop/laptop and GitHub
+- Use [GitHub Pages](https://pages.github.com/) to create simple static web pages using [Jekyll](https://jekyllrb.com/)
+- Use [GitHub Desktop](https://desktop.github.com/) to sync files between your desktop/laptop's local repository and the GitHub remote repository
 - Identify where you can find more information to experiment and learn on your own
 
 ## Duration

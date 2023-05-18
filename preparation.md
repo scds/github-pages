@@ -21,7 +21,7 @@ nav_order: 3
   - Guidance can be found in guides from [**GitHub**](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/setting-up-github-desktop).
 - Sign into GitHub Desktop using your GitHub credentials.
 - In `File > Options > Git`, enter the name and email you want associated with your work.
-  - More guidance can be found in guides from [**GitHub**](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/configuring-and-customizing-github-desktop/configuring-git-for-github-desktop)
+  - More guidance can be found in guides from [**GitHub**](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/configuring-and-customizing-github-desktop/configuring-git-for-github-desktop).
 
 
 <div style="display: flex;">

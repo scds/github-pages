@@ -9,27 +9,30 @@ parent: Lessons
 # Lesson 2: Learn GitHub
 In this second lesson, you'll get some introductory experience creating a GitHub repository and populating it with files from the web interface. 
 
+<details markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
 {:toc}
-1. TOC
+</details>
 
 ## Lesson objectives 
 - Create a GitHub repository.
+- Explore the version control features of GitHub.
 - Create folders and files.
 - Create and edit a markdown file.
 
-## Lesson video
+<!-- ## Lesson video
 The following video demonstrates each of the steps outlined below in text:
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/db64dd93-a736-4936-9517-8d0a18c16a3e/public?autoplay=false&automute=false"></iframe>
-
-## So... what is GitHub?
-
-GitHub is a lot of of things.
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/db64dd93-a736-4936-9517-8d0a18c16a3e/public?autoplay=false&automute=false"></iframe> -->
 
 ## Create a new GitHub repository
 A repository is a container for related materials (i.e. folders and files), that allows for them to be managed (stored, version-tracked) and shared together. Usually, you create a separate repository for each project that you are working on. [Here are the New York Times' GitHub repositories](https://github.com/nytimes), for example.
 
 - Ensure you have [created a GitHub account](../preparation#1-create-a-github-account) and are logged in.
-- From your [GitHub main page](https://www.github.com), click on the green **New** button at the top left of the page. This will be the repository (storage location) where the content of your website will be hosted. 
+- From your [GitHub main page](https://www.github.com), click on the green `New` button at the top left of the page. This will be the repository (storage location) where the content of your website will be hosted. 
 
 <img src="../assets/img/lessons/github1.png" alt="Image of GitHub website with arrow pointing to new repository button" width="100%">
 
@@ -53,6 +56,7 @@ You should now see the top-level of your GitHub repository. This section will go
 
 <img src="../assets/img/lessons/github3.png" alt="Image of GitHub repository page" width="100%">
 
+{:.no_toc}
 ### File Explorer
 
 <img src="../assets/img/lessons/github4.png" alt="Image of GitHub file explorer" width="100%">
@@ -63,6 +67,7 @@ You should now see the top-level of your GitHub repository. This section will go
 
 - You'll be able to create or upload files using the "Add file" button in the red rectangle.
 
+{:.no_toc}
 ### Repository Statistics
 
 <img src="../assets/img/lessons/github5.png" alt="Image of GitHub repository statistics" width="45%">
@@ -74,6 +79,7 @@ You should now see the top-level of your GitHub repository. This section will go
     - When a user decides to "Watch" a repository, they'll receive notifications about any activities or changes within the repository.
     - When a user wants to copy the repo, either to modify it for self-use or to make contributions to the original repository, they "Fork" it. Forking a repository duplicates the contents of the repo, letting the user make changes to the repo without disrupting the original repository.
 
+{:.no_toc}
 ### Repository Header Menu
 
 <img src="../assets/img/lessons/github6.png" alt="Image of GitHub repository header menu" width="100%">
@@ -95,7 +101,7 @@ In this section, you'll create a file and folder in your repository and upload a
 <img src="../assets/img/lessons/github7.png" alt="Image of GitHub file creation" width="100%">
 
 - Press the green `Commit changes...` button. Add a short description (or use the suggested one) and click ```Commit change```.
-- **NOTE**: There are two comment boxes that can be filled in when committing changes. The short description **is required**--ideally, it contains a brief message about the changes you made to the file. An optional larger description box can be filled out, as well. 
+  - There are two comment boxes that can be filled in when committing changes. The short description **is required**--ideally, it contains a brief message about the changes you made to the file. An optional larger description box can be filled out, as well. 
 
 {: .warning }
 > Unlike programs such as Google Docs, GitHub does not save your changes automatically. Rather, you have to instruct it to **Commit** (save) the changes, which takes a snapshot of the file and saves it as the newest version.   
@@ -121,11 +127,13 @@ In this section, you'll create a file and folder in your repository and upload a
 
 <img src="../assets/img/lessons/github11.png" alt="Image of GitHub file preview menu" width="100%">
 
+{:.no_toc}
 ##### File Blame Menu
 
 The blame menu examines a file's contents line by line and shows when that line was last modified and who modified it last.
 <img src="../assets/img/lessons/github12.png" alt="Image of GitHub file blame menu" width="100%">
 
+{:.no_toc}
 ##### File History Menu
 
 The history menu shows all commits that changed the selected file.

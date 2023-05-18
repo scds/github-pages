@@ -10,13 +10,26 @@ has_toc: false
 
 ## Lesson Outline
 
-In Lesson 1, you will learn about what markdown files are, and how you can use them to nicely format text.
+### [Lesson 1 - Learn Markdown](lessons/lesson1)
+- Learn about Markdown
+- Practice creating web-ready content with Markdown
+- Learn how to create special symbols and equations using HTML code
 
-In Lesson 2, you will explore the GitHub web interface and get some introductory experience creating a repository and files.
+### [Lesson 2 - Learn GitHub](lessons/lesson2)
+- Create a GitHub repository.
+- Explore the version control features of GitHub.
+- Create folders and files.
+- Create and edit a markdown file.
 
-In Lesson 3, you will use markdown files in GitHub to publish a simple webpage using GitHub Pages.
+### [Lesson 3 - GitHub Pages](lessons/lesson3)
+- Create a web page from Markdown files using GitHub Pages & Jekyll
+- Customize your web pages; create a website
+- Embed multimedia content
 
-In Lesson 4, you will use GitHub Desktop to interact with your GitHub repository in your local file system.
+### [Lesson 4 - GitHub Desktop](lessons/lesson4)
+- Clone your GitHub repository to your local machine
+- Use GitHub Desktop to control file versions on your local computer
+- Push changes up to GitHub (and pull new changes back down)
 
 <div style="display: flex;">
 <div style="flex-grow: 1;" markdown="1">

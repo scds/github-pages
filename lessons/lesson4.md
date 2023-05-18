@@ -5,8 +5,19 @@ nav_order: 4
 parent: Lessons
 ---
 
+{: .no_toc}
 # Lesson 4 - Sync with GitHub Desktop
-In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning webpage. Ensure that you've sucessfully installed [GitHub Desktop](preparation#2-install-github-desktop).
+In this lesson, you will use GitHub Desktop to interact with your repository using your local file system. Ensure that you've sucessfully installed [GitHub Desktop](preparation#2-install-github-desktop).
+
+<details markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 
 {: .warning }
 > GitHub doesn't currently support GitHub Desktop for **Linux** users. You will still be able to learn about Markdown, GitHub, and GitHub Pages without using GitHub Desktop. If you'd like to learn how to use GitHub with local development, feel free to attend our other workshop on git [**here**](https://scds.github.io/dash-webinars/vcgit.html).
@@ -16,9 +27,9 @@ In this lesson, you'll learn how to use GitHub Pages to turn the markdown files 
 - Use GitHub Desktop to control file versions on your local computer
 - Push changes up to GitHub (and pull new changes back down)
 
-## Lesson video
+<!-- ## Lesson video
 The following video demonstrates each of the steps outlined below in text:
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/99e82d8b-81a2-485e-afc6-236bd169c898/public?autoplay=false&automute=false"></iframe>
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/99e82d8b-81a2-485e-afc6-236bd169c898/public?autoplay=false&automute=false"></iframe> -->
 
 <!-- [**Go to GitHub Desktop Instructions**](#github-desktop)  |  [**Go to git Instructions**](#git) -->
 
@@ -29,12 +40,14 @@ You might have found it tedious to create or upload files in GitHub, especially 
 ## Clone your repository to your computer
 In this step, you will clone your existing GitHub repository to your local computer so that you can work on files locally.
 
+{: .no_toc}
 ### In GitHub
 - In the top-level of your GitHub repository click the green ```<> Code``` button.
 - Copy the https code (e.g. ```https://github.com/Multipixels/github-pages-workshop.git```)  
 
 <img src="../assets/img/lessons/desktop1.png" alt="Image of GitHub Code button" width="100%">
 
+{: .no_toc}
 ### In GitHub Desktop
 
 {: .warning }

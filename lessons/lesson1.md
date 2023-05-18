@@ -6,12 +6,18 @@ parent: Lessons
 ---
 
 {: .no_toc}
-# Lesson 1: Learn Markdown
+# Lesson 1 - Learn Markdown
 
-Markdown is an easy way to format text without worrying about the formatting specifics, allowing you to focus on the content. You'll be using Markdown to easily create our webpages later on in Lesson 3. In this section, you'll learn about Markdown and how to use it to create formatted text.
+Markdown is an easy way to create formatted content... without worrying about the formatting specifics! In this section, you’ll learn a bit about Markdown and how to use it to create formatted text. Later, in [Lesson 3](lesson3), you'll also be using Markdown to create web pages.
 
+<details markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
 {:toc}
-1. TOC
+</details>
 
 ## Lesson objectives
 
@@ -19,19 +25,22 @@ Markdown is an easy way to format text without worrying about the formatting spe
 - Practice creating web-ready content with Markdown
 - Learn how to create special symbols and equations using HTML code
 
-## Lesson video
+<!-- ## Lesson video
 
 The following video demonstrates each of the steps outlined below in text:
 
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/ba194214-c372-4df6-b74d-2cdf8157f996/public?autoplay=false&automute=false"></iframe>
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/ba194214-c372-4df6-b74d-2cdf8157f996/public?autoplay=false&automute=false"></iframe> -->
 
 ## What is Markdown?
 
-Borrowed shamelessly from GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-Markdown/) page:
+<!-- GitHub removed the Mastering Markdown page :(  -->
+<!-- Borrowed shamelessly from GitHub's [Mastering Markdown](https://guides.github.com/features/mastering-Markdown/) page:
 
-> Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or \*.
+> Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like # or \*. -->
 
-Markdown uses simple notation to apply simple formatting rules. Since it's pretty much just plain text, it's transferrable and much simpler than marked-up text like HTML or even Word or Google documents. It's also very readable in its plain text format, which is nice. For much of the writing that you do for the web, Markdown is good enough. GitHub uses Markdown for its documents (this document was created in Markdown), as does a variety of other web platforms (Reddit and Trello, as examples).
+Markdown is an easy way to style and format text. Rather than editing the document itself directly, you work with a plain text document (like something in Notepad!) You'd use characters like \* to specify whether words should be bold or italic, \# to specify headers, or a pattern of characters to signify images. 
+
+Markdown uses simple notation to apply simple formatting rules. Since it's pretty much just plain text, it's transferable and much simpler than marked-up text like HTML or even Word or Google documents. It's also very readable in its plain text format, which is nice. For much of the writing that you do for the web, Markdown is good enough. GitHub uses Markdown for its documents (this web page was created in Markdown), as do a variety of other web platforms (Reddit and Trello, as examples).
 
 You'll be using [**StackEdit**](https://stackedit.io/), an in-browser Markdown editor, for this lesson to create and display Markdown content. In Lesson 2, we'll be using GitHub to store and create Markdown files.
 
@@ -45,7 +54,7 @@ You'll be using [**StackEdit**](https://stackedit.io/), an in-browser Markdown e
 
 <img src="../assets/img/lessons/stackedit2.png" alt="Creating a new file on StackEdit" width="100%">
 
-- On the left hand side is the text editor. This is where you'll be editing your Markdown file. On the right hand side is the Markdown preview window. This is where StackEdit converts your Markdown file into our new fancy formatted text content!
+- On the left-hand side is the text editor. This is where you'll be editing your Markdown file. On the right-hand side is the Markdown preview window. This is where StackEdit converts your Markdown file into our new fancy formatted text content!
 
 ## Using Markdown to create content!
 
@@ -71,7 +80,7 @@ This is some text.
 
 </div>
 
-However, one change in Markdown is the way you create new lines. If you simply start typing on the next page, the output will mash the two lines together onto the same line.
+However, one change in Markdown (compared to text editors like Google Docs or Microsoft Word) is the way you create new lines. If you simply start typing on the next line, the output will mash the two lines together onto the same line.
 
 <div class="code-example" Markdown="1">
 
@@ -195,11 +204,11 @@ Output
 ###### Header 6
 {: .no_toc}
 
-  </div>
+</div>
 
 ### Text Emphasis
 
-To _italicize_ text, we surround our text with the `*` character.
+To create _italic_ text, we surround our text with the `*` character.
 
 <div class="code-example" Markdown="1">
 
@@ -207,15 +216,15 @@ To _italicize_ text, we surround our text with the `*` character.
 Input
 
 ```md
-_Italicized text_
+_Italic text_
 ```
 
 {: .label .label-green }
 Output
 
-_Italicized text_
+_Italic text_
 
-  </div>
+</div>
 
 To create **bold** text, we do the same thing but with two `**` characters.
 
@@ -233,17 +242,17 @@ Output
 
 **Bold text**
 
-  </div>
+</div>
 
 {: .new-title }
 
 > Exercise
 >
-> In StackEdit, try creating **_bold italic text_**.
+> In StackEdit, try creating ***bold italic text***.
 >
 > <details>
 >   <summary> See Solution </summary>
->   <div Markdown="1">
+>   <div markdown="1">
 >   {: .note-title }                                   
 > > Answer
 > > 
@@ -252,13 +261,13 @@ Output
 > >   {: .label }
 > >   Input
 > >   ```md
-> > ***Bold italic text***
+> >   ***Bold italic text***
 > >   ```
 > > 
 > >   {: .label .label-green }
 > >   Output
 > > 
-> > ***Bold italic text***
+> >   ***Bold italic text***
 > > 
 >   </div>
 > </details>
@@ -414,13 +423,13 @@ To create links, we use the `[]()` syntax. The link goes inside the `()`, and th
 Input
 
 ```md
-[Link to this lesson page](https://scds.github.io/github-pages/lesson1.html)
+[Link to this lesson page](https://scds.github.io/github-pages/lessons/lesson1.html)
 ```
 
 {: .label .label-green }
 Output
 
-[Link to this lesson page](https://scds.github.io/github-pages/lesson1.html)
+[Link to this lesson page](https://scds.github.io/github-pages/lessons/lesson1.html)
 
 </div>
 
@@ -531,7 +540,8 @@ As discussed in the previous resource, you can use an _entity name_ or an _entit
 - Entering the _entity name_ `&alpha;` will print the symbol &alpha;, OR
 - Entering the _entity number_ `&#945;` will print the symbol &alpha;
 
-**Note**: Don't forget the semicolon at the end of the code!
+{: .note }
+> Don't forget the semicolon at the end of the code!
 
 <div class="code-example" Markdown="1">
 
@@ -623,11 +633,10 @@ If you require a more complex equation, it's probably easiest to insert the equa
 
 There is a lot more you can do with Markdown. This section will provide you with some additional resources that goes more in-depth with specific Markdown features, like tables, task lists, footnotes, and more!
 
-<!-- TODO -->
-https://www.markdownguide.org/basic-syntax/
-
-https://www.markdownguide.org/extended-syntax/
-
+- [markdownguide.org's Markdown Guide](https://www.markdownguide.org/getting-started/)
+- [markdownguide.org's Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
+- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Daring Fireball's Markdown Introduction](https://daringfireball.net/projects/markdown/)
 
 <div style="display: flex;">
 <div style="flex-grow: 1;" Markdown="1">

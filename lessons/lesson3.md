@@ -5,17 +5,27 @@ nav_order: 3
 parent: Lessons
 ---
 
+{: .no_toc}
 # Lesson 3: Create web pages with GitHub Pages
 In this lesson, you'll learn how to use GitHub Pages to turn the markdown files in your GitHub repository into a functioning webpage.
+
+<details markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## Lesson objectives 
 - Create a webpage from Markdown files using GitHub Pages & jekyll
 - Customize your web pages; create a website
 - Embed multimedia content
 
-## Lesson video
+<!-- ## Lesson video
 The following video demonstrates each of the steps outlined below in text:
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/fbed2775-7252-4c33-977f-8e232fc6caa3/public?autoplay=false&automute=false"></iframe>
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/fbed2775-7252-4c33-977f-8e232fc6caa3/public?autoplay=false&automute=false"></iframe> -->
 
 ## Set up GitHub Pages
 In this step, you will explore some of the functionality available in a GitHub repository, which includes GitHub Pages. 
@@ -165,9 +175,9 @@ Anything after the front matter is Markdown, just like usual. Below, you'll see 
 ```
 
 ## Key Points / Summary
-- GitHub Pages, combined with Jekyll, provides an easy way to create webpages quickly using Markdown
-- There are many Jekyll themes available
-- You can embed videos into your webpages
+- GitHub Pages, combined with Jekyll, provides an easy way to create webpages quickly using Markdown.
+- There are many Jekyll themes available.
+- You can embed videos into your webpages.
 
 <div style="display: flex;">
 <div style="flex-grow: 1;" markdown="1">

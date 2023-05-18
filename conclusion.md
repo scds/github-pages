@@ -6,12 +6,13 @@ nav_order: 5
 
 # Congratulations
 
-**Congratulations!** You've just finished this workshop.
+**Congratulations!** You've just finished the GitHub and GitHub Pages workshop.
 
 You should now be able to:
-- To do this
-- And this other thing
-- Double check that the learning objectives in the introduction match up!
+- Understand what version control is and why it's useful.
+- Use Markdown to format text.
+- Use GitHub and GitHub Pages to host a website.
+- Utilize GitHub Desktop to work on a GitHub project locally.
 
 # Additional Resources
 To learn more about any particular topic, take a look at the links below.
