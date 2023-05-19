@@ -18,7 +18,7 @@ In this lesson, you'll learn how to use GitHub Pages to turn the markdown files 
 {:toc}
 </details>
 
-## Lesson objectives 
+## Lesson Objectives
 - Create a webpage from Markdown files using GitHub Pages & jekyll
 - Customize your web pages; create a website
 - Embed multimedia content

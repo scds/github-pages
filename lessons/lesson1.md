@@ -19,7 +19,7 @@ Markdown is an easy way to create formatted content... without worrying about th
 {:toc}
 </details>
 
-## Lesson objectives
+## Lesson Objectives
 
 - Learn about Markdown
 - Practice creating web-ready content with Markdown

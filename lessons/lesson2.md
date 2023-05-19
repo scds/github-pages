@@ -18,7 +18,7 @@ In this second lesson, you'll get some introductory experience creating a GitHub
 {:toc}
 </details>
 
-## Lesson objectives 
+## Lesson Objectives
 - Create a GitHub repository.
 - Explore the version control features of GitHub.
 - Create folders and files.

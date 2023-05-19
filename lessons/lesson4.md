@@ -22,7 +22,7 @@ In this lesson, you will use GitHub Desktop to interact with your repository usi
 {: .warning }
 > GitHub doesn't currently support GitHub Desktop for **Linux** users. You will still be able to learn about Markdown, GitHub, and GitHub Pages without using GitHub Desktop. If you'd like to learn how to use GitHub with local development, feel free to attend our other workshop on git [**here**](https://scds.github.io/dash-webinars/vcgit.html).
 
-## Lesson objectives 
+## Lesson Objectives
 - Clone your GitHub repository to your local machine
 - Use GitHub Desktop to control file versions on your local computer
 - Push changes up to GitHub (and pull new changes back down)
@@ -175,6 +175,6 @@ In this step, you will *clone* your existing GitHub repository to your local com
 </div>
 
 <div markdown="1">
-[Conclusion 🡪](../conclusion){: .btn .btn-outline}
+[Conclusion & Additional Resources 🡪](../conclusion){: .btn .btn-outline}
 </div>
 </div>
