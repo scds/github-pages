@@ -8,3 +8,4 @@ Contributions by the following individuals:
 - Workshop content created by Jay Brodeur
 - Content edited for online use by Jay Brodeur
 - Online pages created by Jay Brodeur
+ 
