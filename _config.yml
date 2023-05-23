@@ -4,23 +4,23 @@ gh_edit_repository: "https://github.com/scds/github-pages" #*** ENTER the github
 ga_tracking: G-F9JFEFZ01G # *** This needs to be set up in Google Analytics once you know the website URL (ask Jay to do this). Then the tracking code needs to be taken from Google Analytics and pasted here.  
 
 # DMDS Settings
-# subtitle: "An SCDS Do More with Digital Scholarship series tutorial"
+# subtitle: "This workshop is part of the SCDS Do More with Digital Scholarship series."
 # nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/scds-logo.png"
 # nav_footer_logo_bottom_href: "https://scds.ca/"
 # nav_footer_logo_top: ""
 # nav_footer_logo_top_href: ""
 
 # DASH settings
-subtitle: 'A Data Analysis Support Hub Tutorial'
+subtitle: 'This workshop is part of the Data Analysis Support Hub series.'
 nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/scds-logo.png"
 nav_footer_logo_bottom_href: "https://scds.ca/"
 nav_footer_logo_top: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/dash-logo.png"
 nav_footer_logo_top_href: "https://library.mcmaster.ca/services/dash"
 
 # OTHER settings - Override series specific settings
-# subtitle: ""
-# nav_footer_logo_bottom: ""
-# nav_footer_logo_bottom_href: ""
+# subtitle: "This workshop is part of the __ series."
+# nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/scds-logo.png"
+# nav_footer_logo_bottom_href: "https://scds.ca/"
 # nav_footer_logo_top: ""
 # nav_footer_logo_top_href: ""
 
