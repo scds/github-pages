@@ -164,7 +164,7 @@ Let's take this chance to remove the temporary text file we created in the `imag
 - Click on the `...` button at the top right, and click `Delete file`.
 - **Commit** the deletion.
 
-<img src="../assets/img/lessons/github16.png" alt="Image of GitHub file upload menu" width="100%">
+<img src="../assets/img/lessons/github16.png" alt="Image of GitHub file deletion menu" width="100%">
 
 ## Key Points / Summary
 - A repository is a collection of related files with the ability to version control.
