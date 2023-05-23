@@ -20,7 +20,7 @@ In this tutorial, you will learn how to use a suite of related tools ([Markdown]
 - [GitHub Desktop](https://desktop.github.com/) installation (This will be covered in the [Preparation](preparation) page)
 
 {: .warning }
-> GitHub Desktop is unavailable for Linux users, but you will still be able to learn about Markdown, GitHub, and GitHub Pages.
+> GitHub doesn't currently support GitHub Desktop for **Linux** users. You will still be able to learn about Markdown, GitHub, and GitHub Pages without using GitHub Desktop. If you'd like to learn how to use GitHub with local development, feel free to attend our other workshop on git [**here**](https://scds.github.io/dash-webinars/vcgit.html).
 
 ## Learning Objectives
 By the end of this tutorial, you will be able to: 
