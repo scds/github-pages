@@ -4,18 +4,18 @@ gh_edit_repository: "https://github.com/scds/github-pages" #*** ENTER the github
 ga_tracking: G-F9JFEFZ01G # *** This needs to be set up in Google Analytics once you know the website URL (ask Jay to do this). Then the tracking code needs to be taken from Google Analytics and pasted here.  
 
 # DMDS Settings
-# subtitle: "SCDS Do More with Digital Scholarship series"
-# nav_footer_logo_bottom: ""
+# subtitle: "An SCDS Do More with Digital Scholarship series tutorial"
+# nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/scds-logo.png"
 # nav_footer_logo_bottom_href: "https://scds.ca/"
 # nav_footer_logo_top: ""
 # nav_footer_logo_top_href: ""
 
 # DASH settings
 subtitle: 'A Data Analysis Support Hub Tutorial'
-nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/dash-logo.png"
-nav_footer_logo_bottom_href: "https://library.mcmaster.ca/services/dash"
-nav_footer_logo_top: ""
-nav_footer_logo_top_href: ""
+nav_footer_logo_bottom: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/scds-logo.png"
+nav_footer_logo_bottom_href: "https://scds.ca/"
+nav_footer_logo_top: "https://raw.githubusercontent.com/scds/jtd-mcmaster/main/assets/images/dash-logo.png"
+nav_footer_logo_top_href: "https://library.mcmaster.ca/services/dash"
 
 # OTHER settings - Override series specific settings
 # subtitle: ""
@@ -34,7 +34,6 @@ nav_footer_logo_top_href: ""
 # Override Default SCDS Web Icon
 favicon_ico: ""
 
-subtitle: 'A Data Analysis Support Hub Tutorial'
 remote_theme: scds/jtd-mcmaster
 color_scheme: mcmaster
 # logo: "https://github.com/scds/intro-voyant/blob/main/assets/img/dmds-tableau.png?raw=true"
@@ -44,10 +43,6 @@ color_scheme: mcmaster
 #
 # Supports true (default) or false
 heading_anchors: true
-
-
-# Footer content
-# appears at the bottom of every page's main content
 
 # Back to top link
 back_to_top: true
@@ -64,7 +59,6 @@ gh_edit_link_text: "View this content on GitHub"
 gh_edit_branch: "main" # the branch that your docs is served from
 # gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
-
 
 plugins:
   - jekyll-remote-theme

@@ -52,7 +52,7 @@ git is a free and open source **distributed version control system**. It's been 
 
 GitHub is a web-based hosting service for version control using git. It allows you to use all the functionality of git, as well as a lot of other added features. It provides collaboration tools, automation tools, documentation tools, website hosting tools, and many other features. Since it's web-based, you can access the files from anywhere.
 
-<img src="assets/img/introduction/githubPagesLogo.jpg" alt="Image of the GitHub Desktop logo" width="250">
+<img src="assets/img/introduction/githubPagesLogo.jpg" alt="Image of the GitHub Pages logo" width="250">
 
 GitHub Pages is a static site hosting service GitHub provides. It takes in HTML, CSS, and JavaScript files hosted in a GitHub "repository" and publishes a website that anyone can access! Alternatively, you can instead use Markdown files (we'll talk about those in the first lesson!) to create web pages using [**Jekyll**](https://jekyllrb.com/), a built-in software within GitHub Pages. This workshop website here is hosted by GitHub Pages and created entirely using Markdown files.
 
