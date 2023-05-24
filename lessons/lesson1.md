@@ -57,7 +57,7 @@ You'll be using [**Markdown Live Preview**](https://markdownlivepreview.com/), a
 
 ## Using Markdown to create content!
 
-Below, you'll be shown how to create different Markdown elements. Feel free to go to your StackEdit tab and follow along or test the elements out. While this workshop won't cover everything Markdown has to offer, you'll be provided with additional resources at the end of the lesson that covers more advanced Markdown elements.
+Below, you'll be shown how to create different Markdown elements. Feel free to go to your Markdown Live Preview tab and follow along or test the elements out. While this workshop won't cover everything Markdown has to offer, you'll be provided with additional resources at the end of the lesson that covers more advanced Markdown elements.
 
 ### Paragraphs and New Lines
 
@@ -247,7 +247,7 @@ Output
 
 > Exercise
 >
-> In StackEdit, try creating ***bold italic text***.
+> In Markdown Live Preview, try creating ***bold italic text***.
 >
 > <details>
 >   <summary> See Solution </summary>
@@ -293,7 +293,7 @@ Output
 
 > Exercise
 >
-> In StackEdit, try creating **~~bold strikethrough text~~**.
+> In Markdown Live Preview, try creating **~~bold strikethrough text~~**.
 >
 > <details>
 >   <summary> See Solution </summary>
@@ -376,7 +376,7 @@ Output
 
 > Exercise
 >
-> In StackEdit, try creating the list shown below.
+> In Markdown Live Preview, try creating the list shown below.
 >
 > <div class="code-example" markdown="1">
 >
