@@ -42,19 +42,18 @@ Markdown is an easy way to style and format text. Rather than editing the docume
 
 Markdown uses simple notation to apply simple formatting rules. Since it's pretty much just plain text, it's transferable and much simpler than marked-up text like HTML or even Word or Google documents. It's also very readable in its plain text format, which is nice. For much of the writing that you do for the web, Markdown is good enough. GitHub uses Markdown for its documents (this web page was created in Markdown), as do a variety of other web platforms (Reddit and Trello, as examples).
 
-You'll be using [**StackEdit**](https://stackedit.io/), an in-browser Markdown editor, for this lesson to create and display Markdown content. In Lesson 2, we'll be using GitHub to store and create Markdown files.
+You'll be using [**Markdown Live Preview**](https://markdownlivepreview.com/), an in-browser Markdown editor, for this lesson to create and display Markdown content. In Lesson 2, we'll be using GitHub to store and create Markdown files.
 
-## Setting up StackEdit
+## Setting up Markdown Live Preview
 
-- When you first go to [**StackEdit**](https://stackedit.io/), you'll see this page. Click the "Start Writing" button at the top of the page.
+- When you first go to [**Markdown Live Preview**](https://markdownlivepreview.com/), you'll see this page. We'll want to start from a blank page, so highlight all the text and delete it.
 
-<img src="../assets/img/lessons/stackedit1.png" alt="Front page of StackEdit" width="100%">
+- On the left-hand side is the text editor. This is where you’ll be editing your Markdown file. On the right-hand side is the Markdown preview window. This is where Markdown Live Preview converts your Markdown file into our new fancy formatted text content!
 
-- If this is your first time using StackEdit, you will see a lot of pre-generated content. For this workshop, you'll want to go to the top left "Toggle Explorer" button, and create a new file. You can name the file anything you'd like. After creating your new file, close the file explorer by clicking on the "Toggle Explorer" button or the "Close Explorer" button, and then delete any pre-generated content.
+<img src="../assets/img/lessons/markdown1.png" alt="Front page of Markdown Live Preview" width="100%">
 
-<img src="../assets/img/lessons/stackedit2.png" alt="Creating a new file on StackEdit" width="100%">
-
-- On the left-hand side is the text editor. This is where you'll be editing your Markdown file. On the right-hand side is the Markdown preview window. This is where StackEdit converts your Markdown file into our new fancy formatted text content!
+{: .note }
+> You may feel free to use any Markdown editor you're comfortable with. We recommend Markdown Live Preview because it best replicates the Markdown rules GitHub uses. 
 
 ## Using Markdown to create content!
 
