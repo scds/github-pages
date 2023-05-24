@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Preparation
-nav_order: 3
+nav_order: 2
 ---
 
 # Workshop preparation 
@@ -26,10 +26,10 @@ nav_order: 3
 
 <div style="display: flex;">
 <div style="flex-grow: 1;" markdown="1">
-[🡨 Introduction](introduction){: .btn .btn-outline} 
+[🡨 Home](index){: .btn .btn-outline} 
 </div>
 
 <div markdown="1">
-[Lessons 🡪](lessonsPage){: .btn .btn-outline}
+[Introduction 🡪](introduction){: .btn .btn-outline}
 </div>
 </div>

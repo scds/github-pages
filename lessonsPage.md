@@ -33,7 +33,7 @@ has_toc: false
 
 <div style="display: flex;">
 <div style="flex-grow: 1;" markdown="1">
-[🡨 Preparation](preparation){: .btn .btn-outline} 
+[🡨 Introduction](introduction){: .btn .btn-outline} 
 </div>
 
 <div markdown="1">
