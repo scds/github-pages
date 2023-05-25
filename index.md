@@ -34,17 +34,7 @@ By the end of this tutorial, you will be able to:
 - Identify where you can find more information to experiment and learn on your own
 
 ## Duration
-
 This module will take around 1 to 2 hours, however feel free to work at your own pace!
 
-<div style="display: flex;">
-<div style="flex-grow: 1;" markdown="1">
-<!-- [Introduction 🡪](introduction){: .btn .btn-outline} 
-Homepage doesn't have a previus page
--->
-</div>
-
-<div markdown="1">
-[Introduction 🡪](introduction){: .btn .btn-outline}
-</div>
-</div>
+## Land Acknowledgement
+We'd like to acknowledge that McMaster University sits on the Territories of the Mississauga and Haudenosaunee Nations, and within the lands protected by the “Dish With One Spoon” wampum agreement.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Preparation
-nav_order: 3
+nav_order: 2
 ---
 
 # Workshop preparation 
@@ -22,14 +22,3 @@ nav_order: 3
 - Sign into GitHub Desktop using your GitHub credentials.
 - In `File > Options > Git`, enter the name and email you want associated with your work.
   - More guidance can be found in guides from [**GitHub**](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/configuring-and-customizing-github-desktop/configuring-git-for-github-desktop).
-
-
-<div style="display: flex;">
-<div style="flex-grow: 1;" markdown="1">
-[🡨 Introduction](introduction){: .btn .btn-outline} 
-</div>
-
-<div markdown="1">
-[Lessons 🡪](lessonsPage){: .btn .btn-outline}
-</div>
-</div>

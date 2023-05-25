@@ -42,23 +42,22 @@ Markdown is an easy way to style and format text. Rather than editing the docume
 
 Markdown uses simple notation to apply simple formatting rules. Since it's pretty much just plain text, it's transferable and much simpler than marked-up text like HTML or even Word or Google documents. It's also very readable in its plain text format, which is nice. For much of the writing that you do for the web, Markdown is good enough. GitHub uses Markdown for its documents (this web page was created in Markdown), as do a variety of other web platforms (Reddit and Trello, as examples).
 
-You'll be using [**StackEdit**](https://stackedit.io/), an in-browser Markdown editor, for this lesson to create and display Markdown content. In Lesson 2, we'll be using GitHub to store and create Markdown files.
+You'll be using [**Markdown Live Preview**](https://markdownlivepreview.com/), an in-browser Markdown editor, for this lesson to create and display Markdown content. In Lesson 2, we'll be using GitHub to store and create Markdown files.
 
-## Setting up StackEdit
+## Setting up Markdown Live Preview
 
-- When you first go to [**StackEdit**](https://stackedit.io/), you'll see this page. Click the "Start Writing" button at the top of the page.
+- When you first go to [**Markdown Live Preview**](https://markdownlivepreview.com/), you'll see this page. We'll want to start from a blank page, so highlight all the text and delete it.
 
-<img src="../assets/img/lessons/stackedit1.png" alt="Front page of StackEdit" width="100%">
+- On the left-hand side is the text editor. This is where you’ll be editing your Markdown file. On the right-hand side is the Markdown preview window. This is where Markdown Live Preview converts your Markdown file into our new fancy formatted text content!
 
-- If this is your first time using StackEdit, you will see a lot of pre-generated content. For this workshop, you'll want to go to the top left "Toggle Explorer" button, and create a new file. You can name the file anything you'd like. After creating your new file, close the file explorer by clicking on the "Toggle Explorer" button or the "Close Explorer" button, and then delete any pre-generated content.
+<img src="../assets/img/lessons/markdown1.png" alt="Front page of Markdown Live Preview" width="100%">
 
-<img src="../assets/img/lessons/stackedit2.png" alt="Creating a new file on StackEdit" width="100%">
-
-- On the left-hand side is the text editor. This is where you'll be editing your Markdown file. On the right-hand side is the Markdown preview window. This is where StackEdit converts your Markdown file into our new fancy formatted text content!
+{: .note }
+> You may feel free to use any Markdown editor you're comfortable with. We recommend Markdown Live Preview because it best replicates the Markdown rules GitHub uses. 
 
 ## Using Markdown to create content!
 
-Below, you'll be shown how to create different Markdown elements. Feel free to go to your StackEdit tab and follow along or test the elements out. While this workshop won't cover everything Markdown has to offer, you'll be provided with additional resources at the end of the lesson that covers more advanced Markdown elements.
+Below, you'll be shown how to create different Markdown elements. Feel free to go to your Markdown Live Preview tab and follow along or test the elements out. While this workshop won't cover everything Markdown has to offer, you'll be provided with additional resources at the end of the lesson that covers more advanced Markdown elements.
 
 ### Paragraphs and New Lines
 
@@ -248,7 +247,7 @@ Output
 
 > Exercise
 >
-> In StackEdit, try creating ***bold italic text***.
+> In Markdown Live Preview, try creating ***bold italic text***.
 >
 > <details>
 >   <summary> See Solution </summary>
@@ -294,7 +293,7 @@ Output
 
 > Exercise
 >
-> In StackEdit, try creating **~~bold strikethrough text~~**.
+> In Markdown Live Preview, try creating **~~bold strikethrough text~~**.
 >
 > <details>
 >   <summary> See Solution </summary>
@@ -377,7 +376,7 @@ Output
 
 > Exercise
 >
-> In StackEdit, try creating the list shown below.
+> In Markdown Live Preview, try creating the list shown below.
 >
 > <div class="code-example" markdown="1">
 >
@@ -637,13 +636,3 @@ There is a lot more you can do with Markdown. This section will provide you with
 - [markdownguide.org's Basic Syntax Guide](https://www.markdownguide.org/basic-syntax/)
 - [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Daring Fireball's Markdown Introduction](https://daringfireball.net/projects/markdown/)
-
-<div style="display: flex;">
-<div style="flex-grow: 1;" Markdown="1">
-[🡨 Lessons](../lessonsPage){: .btn .btn-outline} 
-</div>
-
-<div Markdown="1">
-[Lesson 2 🡪](lesson2){: .btn .btn-outline}
-</div>
-</div>
