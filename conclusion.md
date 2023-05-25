@@ -38,13 +38,3 @@ If you're interested in learning more about how you can do version control in yo
 ## More about Version Control with git
 - [Official git documentation page](https://git-scm.com/book/en/v2/)
 - [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/) 
-
-<div style="display: flex;">
-<div style="flex-grow: 1;" markdown="1">
-[🡨 Lesson 4](lessons/lesson4){: .btn .btn-outline} 
-</div>
-
-<div markdown="1">
-<!-- [🡪](){: .btn .btn-outline} Conclusion doesn't have a next page -->
-</div>
-</div>

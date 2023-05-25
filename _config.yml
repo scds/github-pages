@@ -30,6 +30,7 @@ nav_footer_logo_top_href: "https://library.mcmaster.ca/services/dash"
 # | |___  | (_| | | | | |_     / ___ \  | |_) | | (_) |  \ V /  |  __/
 # |_____|  \__,_| |_|  \__|   /_/   \_\ |_.__/   \___/    \_/    \___|
 
+navigation: true
 
 # Override Default SCDS Web Icon
 favicon_ico: ""

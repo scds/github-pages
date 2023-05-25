@@ -38,15 +38,3 @@ This module will take around 1 to 2 hours, however feel free to work at your own
 
 ## Land Acknowledgement
 We'd like to acknowledge that McMaster University sits on the Territories of the Mississauga and Haudenosaunee Nations, and within the lands protected by the “Dish With One Spoon” wampum agreement.
-
-<div style="display: flex;">
-<div style="flex-grow: 1;" markdown="1">
-<!-- [Introduction 🡪](introduction){: .btn .btn-outline} 
-Homepage doesn't have a previus page
--->
-</div>
-
-<div markdown="1">
-[Preparation 🡪](preparation){: .btn .btn-outline}
-</div>
-</div>

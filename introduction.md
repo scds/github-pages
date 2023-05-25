@@ -69,15 +69,3 @@ GitHub Desktop is a desktop application that lets you edit files of a Github rep
 ## [Optional] Introduction to GitHub
 Watch the following short introductory video **How GitHub works**  
 <iframe width="100%" height="416" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br>
-
-<div style="display: flex;">
-<div style="flex-grow: 1;" markdown="1">
-[🡨 Preparation](preparation){: .btn .btn-outline} 
-</div>
-
-<div markdown="1">
-[Lessons 🡪](lessonsPage){: .btn .btn-outline}
-</div>
-</div>
