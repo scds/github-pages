@@ -260,7 +260,7 @@ Output
 > >   {: .label }
 > >   Input
 > >   ```md
-> >   ***Bold italic text***
+> > ***Bold italic text***
 > >   ```
 > > 
 > >   {: .label .label-green }
@@ -335,7 +335,7 @@ Input
 1. My first item.
 2. My second item.
     1. This is an indented item.
-222. The number on the item doesn't matter in the final output. Since this is the third item, it'll output `3` in the list.
+3. My third item.
 ```
 
 {: .label .label-green }
@@ -344,7 +344,7 @@ Output
 1. My first item.
 2. My second item.
     1. This is an indented item.
-222. The number on the item doesn't matter in the final output. Since this is the third item, it'll output `3` in the list.
+3. My third item.
 
 </div>
 
@@ -378,7 +378,7 @@ Output
 >
 > In Markdown Live Preview, try creating the list shown below.
 >
-> <div class="code-example" markdown="1">
+> <div markdown="1">
 >
 > {: .label .label-green }
 > Output

@@ -34,7 +34,7 @@ In this step, you will explore some of the functionality available in a GitHub r
 
 <img src="../assets/img/lessons/pages1.png" alt="Image of where to find Pages settings menu" width="100%">
 
-- For the **Source**, ensure it is set to `Deplay from a branch`. 
+- For the **Source**, ensure it is set to `Deploy from a branch`. 
 - For the **Branch**, select the `main` branch and select the root folder. Make sure to press `Save`!
     - This tells GitHub to make our website with the files from the top-level of our repository.
 
