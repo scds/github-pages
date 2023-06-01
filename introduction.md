@@ -8,8 +8,6 @@ nav_order: 3
 
 Follow along with the introductory video, slides, or text below.
 
-{: .label }
-Video
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/eda1d592-eb4e-453d-bd23-0e1a84800ee0/public?autoplay=false&automute=false"></iframe>
 [View original here.](https://echo360.ca/media/eda1d592-eb4e-453d-bd23-0e1a84800ee0/public)
 
@@ -51,7 +49,7 @@ GitHub is a web-based hosting service for version control using git. It allows y
 
 <img src="assets/img/introduction/githubPagesLogo.jpg" alt="Image of the GitHub Pages logo" width="250">
 
-GitHub Pages is a static site hosting service GitHub provides. It takes in HTML, CSS, and JavaScript files hosted in a GitHub "repository" and publishes a website that anyone can access! Alternatively, you can instead use Markdown files (we'll talk about those in the first lesson!) to create web pages using [**Jekyll**](https://jekyllrb.com/), a built-in software within GitHub Pages. This workshop website here is hosted by GitHub Pages and created entirely using Markdown files.
+GitHub Pages is a static site hosting service GitHub provides. It takes in HTML, CSS, and JavaScript files hosted in a GitHub "repository" and publishes a website that anyone can access! Alternatively, you can instead use Markdown files (we'll talk about those in the first lesson!) to create web pages using [Jekyll](https://jekyllrb.com/), a built-in software within GitHub Pages. This workshop website here is hosted by GitHub Pages and created entirely using Markdown files.
 
 <img src="assets/img/introduction/githubDesktopLogo.png" alt="Image of the GitHub Desktop logo" width="150">
 
@@ -67,4 +65,4 @@ GitHub Desktop is a desktop application that lets you edit files of a Github rep
 Watch the following short introductory video **How GitHub works**  
 
 <iframe width="100%" height="416" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
-[View here.](https://www.youtube.com/watch?v=w3jLJU7DT5E&t=1s&ab_channel=GitHub)
+[View original here.](https://www.youtube.com/watch?v=w3jLJU7DT5E&t=1s&ab_channel=GitHub)
