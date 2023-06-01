@@ -25,11 +25,11 @@ Markdown is an easy way to create formatted content... without worrying about th
 - Practice creating web-ready content with Markdown
 - Learn how to create special symbols and equations using HTML code
 
-<!-- ## Lesson video
+## Lesson video
 
-The following video demonstrates each of the steps outlined below in text:
-
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/ba194214-c372-4df6-b74d-2cdf8157f996/public?autoplay=false&automute=false"></iframe> -->
+The following video demonstrates each of the steps outlined below in text.
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a347ed63-745d-4d08-8b9a-98b2dd0d0e14/public?autoplay=false&automute=false"></iframe>
+[View original here.](https://echo360.ca/media/a347ed63-745d-4d08-8b9a-98b2dd0d0e14/public)
 
 ## What is Markdown?
 

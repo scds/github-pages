@@ -8,13 +8,10 @@ nav_order: 3
 
 Follow along with the introductory video, slides, or text below.
 
-<!-- {: .label }
-Video
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
-
 {: .label }
-Slides
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSB6guZ6tdX2wPcsMAzviOOQrcRAeiUNEIAtIRniSx4C3D0Gl35wi60jB5sRlB9eGfs8dVcNvweXxHY/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+Video
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/eda1d592-eb4e-453d-bd23-0e1a84800ee0/public?autoplay=false&automute=false"></iframe>
+[View original here.](https://echo360.ca/media/eda1d592-eb4e-453d-bd23-0e1a84800ee0/public)
 
 ## What is Version Control?
 
