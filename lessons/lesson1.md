@@ -25,11 +25,11 @@ Markdown is an easy way to create formatted content... without worrying about th
 - Practice creating web-ready content with Markdown
 - Learn how to create special symbols and equations using HTML code
 
-<!-- ## Lesson video
+## Lesson video
 
-The following video demonstrates each of the steps outlined below in text:
-
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/ba194214-c372-4df6-b74d-2cdf8157f996/public?autoplay=false&automute=false"></iframe> -->
+The following video demonstrates each of the steps outlined below in text.
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a347ed63-745d-4d08-8b9a-98b2dd0d0e14/public?autoplay=false&automute=false"></iframe>
+[View original here.](https://echo360.ca/media/a347ed63-745d-4d08-8b9a-98b2dd0d0e14/public)
 
 ## What is Markdown?
 
@@ -260,7 +260,7 @@ Output
 > >   {: .label }
 > >   Input
 > >   ```md
-> >   ***Bold italic text***
+> > ***Bold italic text***
 > >   ```
 > > 
 > >   {: .label .label-green }
@@ -335,7 +335,7 @@ Input
 1. My first item.
 2. My second item.
     1. This is an indented item.
-222. The number on the item doesn't matter in the final output. Since this is the third item, it'll output `3` in the list.
+3. My third item.
 ```
 
 {: .label .label-green }
@@ -344,7 +344,7 @@ Output
 1. My first item.
 2. My second item.
     1. This is an indented item.
-222. The number on the item doesn't matter in the final output. Since this is the third item, it'll output `3` in the list.
+3. My third item.
 
 </div>
 
@@ -378,7 +378,7 @@ Output
 >
 > In Markdown Live Preview, try creating the list shown below.
 >
-> <div class="code-example" markdown="1">
+> <div markdown="1">
 >
 > {: .label .label-green }
 > Output

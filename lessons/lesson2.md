@@ -7,6 +7,7 @@ parent: Lessons
 
 {:.no_toc}
 # Lesson 2: Learn GitHub
+
 In this second lesson, you'll get some introductory experience creating a GitHub repository and populating it with files from the web interface. 
 
 <details markdown="block">
@@ -19,14 +20,17 @@ In this second lesson, you'll get some introductory experience creating a GitHub
 </details>
 
 ## Lesson Objectives
+
 - Create a GitHub repository.
 - Explore the version control features of GitHub.
 - Create folders and files.
 - Create and edit a markdown file.
 
-<!-- ## Lesson video
-The following video demonstrates each of the steps outlined below in text:
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/db64dd93-a736-4936-9517-8d0a18c16a3e/public?autoplay=false&automute=false"></iframe> -->
+## Lesson video
+
+The following video demonstrates each of the steps outlined below in text.
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/22eff452-c975-4bbd-a589-c3399f686c9d/public?autoplay=false&automute=false"></iframe>
+[View original here.](https://echo360.ca/media/22eff452-c975-4bbd-a589-c3399f686c9d/public)
 
 ## Create a new GitHub repository
 A repository is a container for related materials (i.e. folders and files), that allows for them to be managed (stored, version-tracked) and shared together. Usually, you create a separate repository for each project that you are working on. [Here are the New York Times' GitHub repositories](https://github.com/nytimes), for example.

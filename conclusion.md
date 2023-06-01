@@ -30,9 +30,15 @@ To learn more about any particular topic, take a look at the links below.
 - GitHub pages uses jekyll to turn your markdown files (hosted in your GitHub repo) into HTML files and presents them on your desired website. 
 - Jekyll [web page](https://jekyllrb.com/) and Jekyll project [on GitHub](https://github.com/jekyll/jekyll).
 
+## Jekyll Themes
+- [jamstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/)
+- [jekyllthemes.org](http://jekyllthemes.org/)
+- [jekyllthemes.io](https://jekyllthemes.io/)
+- [jekyll-themes.com](https://jekyll-themes.com/)
+
 ## Learn about git and GitHub Desktop
 If you're interested in learning more about how you can do version control in your local folders and connect them to GitHub repositories see: 
-- [This intro to Git and GitHub tutorial](https://ubc-library-rc.github.io/intro-git/) from UBC Library Research Commons.
+- [Version Control with Git](https://scds.github.io/dash-webinars/vcgit.html) from SCDS.
 - [This intro to GitHub Desktop tutorial](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/creating-your-first-repository-using-github-desktop) from GitHub.
 
 ## More about Version Control with git

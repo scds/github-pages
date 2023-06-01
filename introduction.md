@@ -8,23 +8,18 @@ nav_order: 3
 
 Follow along with the introductory video, slides, or text below.
 
-<!-- {: .label }
-Video
-<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/a65689c0-c35c-4f33-9c12-f0ac97883f54/public?autoplay=false&automute=false"></iframe>
-
-{: .label }
-Slides
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSB6guZ6tdX2wPcsMAzviOOQrcRAeiUNEIAtIRniSx4C3D0Gl35wi60jB5sRlB9eGfs8dVcNvweXxHY/embed?start=false&loop=true&delayms=3000" frameborder="0" width="100%" height="450" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> -->
+<iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/eda1d592-eb4e-453d-bd23-0e1a84800ee0/public?autoplay=false&automute=false"></iframe>
+[View original here.](https://echo360.ca/media/eda1d592-eb4e-453d-bd23-0e1a84800ee0/public)
 
 ## What is Version Control?
 
-There are many times in our day to day lives when we want to keep track of different versions of *things*. Most commonly, Keeping track of changes between these different versions is known as **Version Control**.
+There are many times in our day to day lives when we want to keep track of different versions of *things*. Most commonly, keeping track of changes between these different versions is known as **Version Control**.
 
-![An image showcasing a folder full of different versions of the same file](assets/img/introduction/versionControl.png)
+![A folder full of different versions of the same file](assets/img/introduction/versionControl.png)
 
 <ins> *Image credit: [PhDComics](https://phdcomics.com/comics.php?f=1323) \| Image © jorge cham* </ins>
 
-You may have found yourself in a situation like in the image above. While you can do version control manually, there are many disadvantages to it and prone to errors.
+You may have found yourself in a situation like in the image above. While you can do version control manually, there are many disadvantages to it and it can be prone to errors.
 
 - Your work folder will get cluttered really quickly.
 - You may accidentally edit or overwrite the wrong file.
@@ -33,7 +28,7 @@ You may have found yourself in a situation like in the image above. While you ca
 - It's harder to keep track of which file has what changes.
 - How will this work for collaborative files?
 
-This is where Version Control Systems (like git!) come handy. Version Control Systems automate all the tedious parts of Version Control and also allow you to do a lot more things. Some common features of Version Control Systems include:
+This is where Version Control Systems (like git!) come in handy. Version Control Systems automate all the tedious parts of Version Control and also allow you to do a lot more things. Some common features of Version Control Systems include:
 
 - the ability to see a timeline of changes to a file.
 - the ability to revert to a previous version easily.
@@ -46,7 +41,7 @@ This is where Version Control Systems (like git!) come handy. Version Control Sy
 <br>
 <img src="assets/img/introduction/gitLogo.png" alt="Image of the git logo" width="150">
 
-git is a free and open source **distributed version control system**. It's been around for a very long time and is used for small and big projects alike. Traditionally git is command-line based, meaning that you have to interact with it using text-based commands. However, today there are many graphical interfaces based on git, allowing you to do all the same things you normally would but right at the click of a button. 
+git is a free and open source **distributed version control system**. It's been around for a long time and is used for small and big projects alike. Traditionally git is command-line based, meaning that you have to interact with it using text-based commands. However, today there are many graphical interfaces based on git, allowing you to do all the same things you normally would but right at the click of a button. 
 
 <img src="assets/img/introduction/githubLogo.png" alt="Image of the GitHub logo" width="150">
 
@@ -54,7 +49,7 @@ GitHub is a web-based hosting service for version control using git. It allows y
 
 <img src="assets/img/introduction/githubPagesLogo.jpg" alt="Image of the GitHub Pages logo" width="250">
 
-GitHub Pages is a static site hosting service GitHub provides. It takes in HTML, CSS, and JavaScript files hosted in a GitHub "repository" and publishes a website that anyone can access! Alternatively, you can instead use Markdown files (we'll talk about those in the first lesson!) to create web pages using [**Jekyll**](https://jekyllrb.com/), a built-in software within GitHub Pages. This workshop website here is hosted by GitHub Pages and created entirely using Markdown files.
+GitHub Pages is a static site hosting service GitHub provides. It takes in HTML, CSS, and JavaScript files hosted in a GitHub "repository" and publishes a website that anyone can access! Alternatively, you can instead use Markdown files (we'll talk about those in the first lesson!) to create web pages using [Jekyll](https://jekyllrb.com/), a built-in software within GitHub Pages. This workshop website here is hosted by GitHub Pages and created entirely using Markdown files.
 
 <img src="assets/img/introduction/githubDesktopLogo.png" alt="Image of the GitHub Desktop logo" width="150">
 
@@ -68,4 +63,6 @@ GitHub Desktop is a desktop application that lets you edit files of a Github rep
 
 ## [Optional] Introduction to GitHub
 Watch the following short introductory video **How GitHub works**  
-<iframe width="100%" height="416" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="100%" height="416" src="https://www.youtube.com/embed/w3jLJU7DT5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+[View original here.](https://www.youtube.com/watch?v=w3jLJU7DT5E&t=1s&ab_channel=GitHub)
