@@ -26,7 +26,7 @@ In this second lesson, you'll get some introductory experience creating a GitHub
 - Create folders and files.
 - Create and edit a markdown file.
 
-## Lesson video
+## Lesson Video
 
 The following video demonstrates each of the steps outlined below in text.
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/22eff452-c975-4bbd-a589-c3399f686c9d/public?autoplay=false&automute=false"></iframe>
