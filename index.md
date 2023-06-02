@@ -37,4 +37,4 @@ By the end of this tutorial, you will be able to:
 This module will take around 1 to 2 hours, however feel free to work at your own pace!
 
 ## Land Acknowledgement
-We'd like to acknowledge that McMaster University sits on the Territories of the Mississauga and Haudenosaunee Nations, and within the lands protected by the “Dish With One Spoon” wampum agreement.
+We'd like to acknowledge that McMaster University sits on the Territories of the Mississauga and Haudenosaunee Nations, and within the lands protected by the Dish With One Spoon wampum agreement.
