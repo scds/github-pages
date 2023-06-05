@@ -27,7 +27,7 @@ In this lesson, you will use GitHub Desktop to interact with your repository usi
 - Use GitHub Desktop to control file versions on your local computer
 - Push changes up to GitHub (and pull new changes back down)
 
-## Lesson video
+## Lesson Video
 
 The following video demonstrates each of the steps outlined below in text.
 <iframe height="416" width="100%" allowfullscreen frameborder=0 src="https://echo360.ca/media/83dde549-eecb-4019-8021-410bb1a5f47f/public?autoplay=false&automute=false"></iframe>
