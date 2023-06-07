@@ -41,18 +41,25 @@ This is where Version Control Systems (like git!) come in handy. Version Control
 <br>
 <img src="assets/img/introduction/gitLogo.png" alt="Image of the git logo" width="150">
 
+### Git
 git is a free and open source **distributed version control system**. It's been around for a long time and is used for small and big projects alike. Traditionally git is command-line based, meaning that you have to interact with it using text-based commands. However, today there are many graphical interfaces based on git, allowing you to do all the same things you normally would but right at the click of a button. 
 
+<br>
 <img src="assets/img/introduction/githubLogo.png" alt="Image of the GitHub logo" width="150">
 
+### GitHub
 GitHub is a web-based hosting service for version control using git. It allows you to use all the functionality of git, as well as a lot of other added features. It provides collaboration tools, automation tools, documentation tools, website hosting tools, and many other features. Since it's web-based, you can access the files from anywhere.
 
+<br>
 <img src="assets/img/introduction/githubPagesLogo.jpg" alt="Image of the GitHub Pages logo" width="250">
 
+### GitHub Pages
 GitHub Pages is a static site hosting service GitHub provides. It takes in HTML, CSS, and JavaScript files hosted in a GitHub "repository" and publishes a website that anyone can access! Alternatively, you can instead use Markdown files (we'll talk about those in the first lesson!) to create web pages using [Jekyll](https://jekyllrb.com/), a built-in software within GitHub Pages. This workshop website here is hosted by GitHub Pages and created entirely using Markdown files.
 
+<br>
 <img src="assets/img/introduction/githubDesktopLogo.png" alt="Image of the GitHub Desktop logo" width="150">
 
+### GitHub Desktop
 GitHub Desktop is a desktop application that lets you edit files of a Github repository within your local file system on your PC using a GUI interface.
 
 ## What should I use a Version Control System for?

@@ -66,9 +66,7 @@ You should now see the top-level of your GitHub repository. This section will go
 <img src="../assets/img/lessons/github4.png" alt="Image of GitHub file explorer" width="100%">
 
 - In the blue rectangle, you see your file explorer. This is where your repository's directories and files will be found. A new repository will typically contain a README.md file. As previously mentioned, the `.md` extension indicates that this is a Markdown file.
-
 - In the green rectangle, GitHub renders the README.md file in the current directory (if there is one). Since README is a Markdown file, you can include all the fancy features you learned from the previous lesson. 
-
 - You'll be able to create or upload files using the "Add file" button in the red rectangle.
 
 {:.no_toc}
@@ -77,7 +75,6 @@ You should now see the top-level of your GitHub repository. This section will go
 <img src="../assets/img/lessons/github5.png" alt="Image of GitHub repository statistics" width="45%">
 
 - At the very top, you'll be able to find the description you created for your repository (if you made one.) Clicking on the gear icon allows you to change the description, as well as attach a website address and topics. The website and topics will be shown under the description.
-
 - The Readme button takes you to the same page you're currently on. Below that, you'll find stats for number of stars, number of "watches", and number of forks.
 	- Stars are GitHub's version of "likes." When users like a repository project, they can "Star" it.
     - When a user decides to "Watch" a repository, they'll receive notifications about any activities or changes within the repository.
@@ -89,7 +86,6 @@ You should now see the top-level of your GitHub repository. This section will go
 <img src="../assets/img/lessons/github6.png" alt="Image of GitHub repository header menu" width="100%">
 
 - At the top of the repository header, we have our repository file path. It will always start with the owner of repository, (in your case this would be your GitHub username), followed by the name of the repository, and then any directories you're inside of.
-
 - Below are a bunch of menus! The two most important ones are the `<> Code` menu, and the `Settings` menu. The menu you're currently in is the `<> Code` menu, and you can probably guess, this is where all your code (and files, documents, data, etc.) go. 
 
 {: .note }

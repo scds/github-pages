@@ -78,9 +78,8 @@ At the top left, you can see a list of all your cloned repositories on your comp
 
 Currently, you have a local repository (GitHub Desktop) and a remote repository (GitHub).
 
-Pull: GitHub Desktop will sync with GitHub by downloading any changes made to the remote repository.
-
-Push: GitHub Desktop will sync with GitHub by uploading any changes made to the local repository.
+**Pull**: GitHub Desktop will sync with GitHub by downloading any changes made to the remote repository.  
+**Push**: GitHub Desktop will sync with GitHub by uploading any changes made to the local repository.
 
 The typical workflow is to **pull** all changes **before** starting to work on your project, make your changes, **commit** your changes, and then **push** your work to GitHub. Doing this correctly will prevent any version conflicts of files.
 
