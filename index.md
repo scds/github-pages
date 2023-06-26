@@ -20,11 +20,11 @@ In this tutorial, you will learn how to use a suite of related tools ([Markdown]
 - [GitHub Desktop](https://desktop.github.com/) installation (This will be covered in the [Preparation](preparation) page)
 
 {: .warning }
-> GitHub does not currently support GitHub Desktop for **Linux** users. You will still be able to learn about Markdown, GitHub, and GitHub Pages without using GitHub Desktop. If you'd like to learn how to use GitHub with local development, feel free to attend [**our other workshop on git**](https://scds.github.io/dash-webinars/vcgit.html).
+> GitHub does not currently support GitHub Desktop for **Linux** users. You will still be able to learn about Markdown, GitHub, and GitHub Pages without using GitHub Desktop. If you'd like to learn how to use GitHub with local development, [**check out our module on git**](https://scds.github.io/dash-webinars/vcgit.html).
 
 ## Learning Objectives
 By the end of this tutorial, you will be able to: 
-- Describe the basics of versioning and versioning software and communicate their value
+- Describe the basics of versioning and version control software and communicate their value
 - Explain the differences between git and GitHub, and describe how they work together
 - Use [Markdown](https://www.markdownguide.org/getting-started/) to format text in a simple yet effective manner
 - Create a [GitHub](https://github.com/) repository
