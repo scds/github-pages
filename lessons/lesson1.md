@@ -215,13 +215,13 @@ To create _italic_ text, we surround our text with the `*` character.
 Input
 
 ```md
-_Italic text_
+*Italic text*
 ```
 
 {: .label .label-green }
 Output
 
-_Italic text_
+*Italic text*
 
 </div>
 

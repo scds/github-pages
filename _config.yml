@@ -1,4 +1,4 @@
-title: GitHub and GitHub Pages # *** Enter workshop title here 
+title: Getting Started with GitHub and GitHub Pages # *** Enter workshop title here 
 github_repo_url: "https://scds.github.io/github-pages/" # ***Enter workshop URL (in github pages) here
 gh_edit_repository: "https://github.com/scds/github-pages" #*** ENTER the github URL for your repo
 ga_tracking: G-F9JFEFZ01G # *** This needs to be set up in Google Analytics once you know the website URL (ask Jay to do this). Then the tracking code needs to be taken from Google Analytics and pasted here.  
