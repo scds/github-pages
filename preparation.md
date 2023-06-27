@@ -14,7 +14,7 @@ nav_order: 2
 ## 2. Install GitHub Desktop
 
 {: .warning }
-> GitHub does not currently support GitHub Desktop for **Linux** users. You will still be able to learn about Markdown, GitHub, and GitHub Pages without using GitHub Desktop. If you'd like to learn how to use GitHub with local development, feel free to attend [**our other workshop on git**](https://scds.github.io/dash-webinars/vcgit.html).
+> GitHub does not currently support GitHub Desktop for **Linux** users. You will still be able to learn about Markdown, GitHub, and GitHub Pages without using GitHub Desktop. If you'd like to learn how to use GitHub with local development, [**check out our module on git**](https://scds.github.io/dash-webinars/vcgit.html).
 
 ### Installing GitHub Desktop
 - Download and install [GitHub Desktop](https://desktop.github.com/).

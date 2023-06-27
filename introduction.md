@@ -60,9 +60,9 @@ GitHub Pages is a static site hosting service GitHub provides. It takes in HTML,
 <img src="assets/img/introduction/githubDesktopLogo.png" alt="Image of the GitHub Desktop logo" width="150">
 
 ### GitHub Desktop
-GitHub Desktop is a desktop application that lets you edit files of a Github repository within your local file system on your PC using a GUI interface.
+GitHub Desktop is a desktop application that lets you sync and edit files from a GitHub repository within your local file system on your PC using a graphical user interface (GUI).
 
-## What should I use a Version Control System for?
+## For what kinds of project might I use a Version Control System?
 - Software projects - e.g. [OpenRefine](https://github.com/OpenRefine/OpenRefine), [GIMP](https://github.com/GNOME/gimp)
 - Data - e.g. [OpenIndexMaps](https://github.com/OpenIndexMaps), [Serratus](https://github.com/ababaian/serratus), [and a lot more](https://github.com/awesomedata/awesome-public-datasets)
 - Books - e.g. [SmoothCoffeeScript](https://github.com/autotelicum/Smooth-CoffeeScript), [Git from the Bottom Up](https://github.com/jwiegley/git-from-the-bottom-up), [and a lot more](https://github.com/topics/books)
