@@ -28,7 +28,7 @@ You may have found yourself in a situation like in the image above. While you ca
 - It's harder to keep track of which file has what changes.
 - How will this work for collaborative files?
 
-This is where Version Control Systems (like git!) come in handy. Version Control Systems automate all the tedious parts of Version Control and also allow you to do a lot more things. Some common features of Version Control Systems include:
+This is where Version Control Systems (like Git!) come in handy. Version Control Systems automate all the tedious parts of Version Control and also allow you to do a lot more things. Some common features of Version Control Systems include:
 
 - the ability to see a timeline of changes to a file.
 - the ability to revert to a previous version easily.
@@ -37,18 +37,18 @@ This is where Version Control Systems (like git!) come in handy. Version Control
 - the ability to allow others to modify / contribute to your project.
 - the ability to manage contributions and decide what contributions get merged into the main version.
 
-## What is git, GitHub, GitHub Pages, and GitHub Desktop?
+## What is Git, GitHub, GitHub Pages, and GitHub Desktop?
 <br>
 <img src="assets/img/introduction/gitLogo.png" alt="Image of the git logo" width="150">
 
 ### Git
-git is a free and open source **distributed version control system**. It's been around for a long time and is used for small and big projects alike. Traditionally git is command-line based, meaning that you have to interact with it using text-based commands. However, today there are many graphical interfaces based on git, allowing you to do all the same things you normally would but right at the click of a button. 
+Git is a free and open source **distributed version control system**. It's been around for a long time and is used for small and big projects alike. Traditionally Git is command-line based, meaning that you have to interact with it using text-based commands. However, today there are many graphical interfaces based on Git, allowing you to do all the same things you normally would but right at the click of a button. 
 
 <br>
 <img src="assets/img/introduction/githubLogo.png" alt="Image of the GitHub logo" width="150">
 
 ### GitHub
-GitHub is a web-based hosting service for version control using git. It allows you to use all the functionality of git, as well as a lot of other added features. It provides collaboration tools, automation tools, documentation tools, website hosting tools, and many other features. Since it's web-based, you can access the files from anywhere.
+GitHub is a web-based hosting service for version control using Git. It allows you to use all the functionality of Git, as well as a lot of other added features. It provides collaboration tools, automation tools, documentation tools, website hosting tools, and many other features. Since it's web-based, you can access the files from anywhere.
 
 <br>
 <img src="assets/img/introduction/githubPagesLogo.jpg" alt="Image of the GitHub Pages logo" width="250">

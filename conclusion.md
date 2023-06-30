@@ -36,11 +36,11 @@ To learn more about any particular topic, take a look at the links below.
 - [jekyllthemes.io](https://jekyllthemes.io/)
 - [jekyll-themes.com](https://jekyll-themes.com/)
 
-## Learn about git and GitHub Desktop
+## Learn about Git and GitHub Desktop
 If you're interested in learning more about how you can do version control in your local folders and connect them to GitHub repositories see: 
 - [Version Control with Git](https://scds.github.io/dash-webinars/vcgit.html) from SCDS.
 - [This intro to GitHub Desktop tutorial](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/creating-your-first-repository-using-github-desktop) from GitHub.
 
-## More about Version Control with git
-- [Official git documentation page](https://git-scm.com/book/en/v2/)
+## More about Version Control with Git
+- [Official Git documentation page](https://git-scm.com/book/en/v2/)
 - [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/) 
