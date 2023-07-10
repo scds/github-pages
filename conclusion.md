@@ -26,21 +26,17 @@ To learn more about any particular topic, take a look at the links below.
 
 ## More about Jekyll
 *From [jekyllrb.com](https://jekyllrb.com/):*
->“Jekyll is a static site generator. You give it text written in your favorite markup language and it uses layouts to create a static website. You can tweak how you want the site URLs to look, what data gets displayed on the site, and more.”
-- GitHub pages uses jekyll to turn your markdown files (hosted in your GitHub repo) into HTML files and presents them on your desired website. 
-- Jekyll [web page](https://jekyllrb.com/) and Jekyll project [on GitHub](https://github.com/jekyll/jekyll).
+> “Jekyll is a static site generator. You give it text written in your favorite markup language and it uses layouts to create a static website. You can tweak how you want the site URLs to look, what data gets displayed on the site, and more.”
 
-## Jekyll Themes
+GitHub pages uses Jekyll to turn your markdown files (hosted in your GitHub repo) into HTML files and presents them on your desired website. 
+- To learn more about Jekyll, visit its [web page](https://jekyllrb.com/) or the [Jekyll project on GitHub](https://github.com/jekyll/jekyll).
+
+Some websites to find themes for Jekyll are listed below.
 - [jamstackthemes.dev](https://jamstackthemes.dev/ssg/jekyll/)
 - [jekyllthemes.org](http://jekyllthemes.org/)
 - [jekyllthemes.io](https://jekyllthemes.io/)
 - [jekyll-themes.com](https://jekyll-themes.com/)
 
-## Learn about Git and GitHub Desktop
-If you're interested in learning more about how you can do version control in your local folders and connect them to GitHub repositories see: 
-- [Version Control with Git](https://scds.github.io/dash-webinars/vcgit.html) from SCDS.
-- [This intro to GitHub Desktop tutorial](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/creating-your-first-repository-using-github-desktop) from GitHub.
-
-## More about Version Control with Git
-- [Official Git documentation page](https://git-scm.com/book/en/v2/)
+## Related Workshops
+- [Version Control with Git](https://scds.github.io/dash-webinars/vcgit.html).
 - [The Smart Ways to Correct Mistakes in Git](https://css-tricks.com/the-smart-ways-to-correct-mistakes-in-git/) 

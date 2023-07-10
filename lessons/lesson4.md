@@ -70,16 +70,21 @@ We will quickly go over the different elements in the GitHub Desktop interface.
 
 <img src="../assets/img/lessons/desktop4.png" alt="Image of GitHub Desktop interface" width="100%">
 
-On this page, we can see all the changes we've made to the repository files since the last commit. (Since this is a freshly cloned repository, there are no changes to show.) Clicking on the history button will show you the history of all the commits in the repository, much like how GitHub does.
+- In the red rectangle (#1), we can see all the changes we've made to the repository files since the last commit. Since this a freshly cloned repository, there are no changes to show.
+- Clicking on the history button in the yellow rectangle (#2) will show you the history of all the commits in the repository, much like how GitHub does.
+- When you do make changes, they'll be highlighted on the right side in the white rectangle (#3). 
+- Then, you'll be able to commit your changes by providing a commit summary with an optional description in the orange rectangle (#4), just like in the GitHub interface.
+- At the top left, in the green rectangle (#5), you can see a list of all your cloned repositories on your computer and select which one you want to work on. 
+- To the right of that, in the blue rectangle (#6), you can select what branch you're working on. 
+- To the right of that, in the purple rectangle (#7), this is where you *pull* and *push* your changes.
 
-When you do make changes, they'll be highlighted on the right side. Then, you'll be able to commit your changes by providing a commit summary (with an optional description,) just like in the GitHub interface.
+Currently, you have a local repository on your computer and a remote repository on GitHub.
 
-At the top left, you can see a list of all your cloned repositories on your computer and select which one you want to work on. To the right of that, you can select what branch you're working on. To the right of that, this is where you *pull* and *push* your changes.
+**Pull**
+: The local repository on your computer will sync with GitHub by downloading any changes made to the remote repository.  
 
-Currently, you have a local repository (GitHub Desktop) and a remote repository (GitHub).
-
-**Pull**: GitHub Desktop will sync with GitHub by downloading any changes made to the remote repository.  
-**Push**: GitHub Desktop will sync with GitHub by uploading any changes made to the local repository.
+**Push**
+: The local repository on your computer will sync with GitHub by uploading any changes made to the local repository.
 
 The typical workflow is to **pull** all changes **before** starting to work on your project, make your changes, **commit** your changes, and then **push** your work to GitHub. Doing this correctly will prevent any version conflicts of files.
 
@@ -101,10 +106,14 @@ The typical workflow is to **pull** all changes **before** starting to work on y
   - Click ```Commit to main```. This commits your changes to your local repository (but not yet to your GitHub one!). 
   - If you continue to work on your local files, you will need to again commit changes.  
 
+<img src="../assets/img/lessons/desktop6.png" alt="Image of GitHub Desktop creating a commit" width="100%">
+
 ## Push changes to your GitHub remote repository
 In this step, you'll *push* your local changes back up to your GitHub repository, so that both are synced. 
 - In GitHub Desktop, click the ```Push origin``` button to send your changes to your GitHub repository.
 - You can go back to your repository on GitHub to verify your changes.
+
+<img src="../assets/img/lessons/desktop7.png" alt="Image of GitHub Desktop pushing commits" width="100%">
 
 ## Make changes in the GitHub remote repository
 
@@ -114,7 +123,12 @@ To demonstrate how to pull, let's make a change in the remote repository.
 
 ## Pull changes to the local repository
 - In GitHub Desktop, click the **Fetch origin** button. This will check the GitHub repository to see if any changes have been made remotely.
+
+<img src="../assets/img/lessons/desktop8.png" alt="Image of GitHub Desktop fetching origin" width="100%">
+
 - In GitHub Desktop, click the **Pull origin** button to sync remote changes to your local files. 
+
+<img src="../assets/img/lessons/desktop9.png" alt="Image of GitHub Desktop pulling origin" width="100%">
 
 <!-- # Git
 These instructions assume that you have basic experience using the command line. 

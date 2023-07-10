@@ -54,7 +54,7 @@ In this step, you will explore some of the functionality available in a GitHub r
 {: .note }
 > You may receive a 404 error, but after a minute, your website will appear with the content from index.md as the landing page.
 >
-> By default, GitHub Pages expects at least one file in the root folder named index.md. This file becomes the homepage for the web page (i.e. index.md is translated to index.html.)
+> By default, GitHub Pages expects at least one file in the root folder named `index.html`. Jekyll, however, lets us also use `index.md`. This file (either `index.html` or `index.md`) becomes the homepage for the web page.
 
 - Your page will look rather basic (it may look different depending on what you put in your index.md). This is because we haven't provided GitHub with a Jekyll theme for our content. In the next section, we'll take a look at Jekyll, the different themes available to us, and how to set it up.
 
@@ -97,6 +97,11 @@ To apply our theme, we have to create a new file called `_config.yml` in the top
 - Navigate back to the top-level and create a file called `_config.yml`. Don't commit just yet.
 
 This is your configuration file, and it's written in a language called [YAML](https://en.wikipedia.org/wiki/YAML) (it stands for Yet Another Markup Language. it's similar to Markdown). The `_config.yml` file provides instructions to Jekyll about how to build your website. Jekyll's config has a set of pre-defined properties, but themes can have their own properties as well (this is why it's important to read the theme's documentation!)
+
+{: .note }
+> Typically, Jekyll ignores files that start with an underscore. This can be used to hide pages from the user.
+> 
+> However, there are some special files that Jekyll looks for, also represented by underscores. `_config.yml` is one of these special files.
 
 There is ***a lot*** that you can do with Jekyll (within GitHub Pages and as a standalone application on your computer) to generate customized webpages. While only the theme information is set in your file initially, there are many ways that you can [customize it](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins). Here, we'll add a few changes to improve your website's functionality and appearance:
 
@@ -159,7 +164,7 @@ If all went well, your website should now be using the Just the Docs template!
 
 <img src="../assets/img/lessons/pages7.png" alt="Website" width="100%">
 
-## Creating a new page with embedded YouTube content
+## Creating a new page with embedded multimedia content
 
 Creating new pages from here on is very quick and simple.
 
@@ -167,7 +172,7 @@ Creating new pages from here on is very quick and simple.
 - Create a new Markdown file, and copy the front matter at the top.
     - Don't forget to update the `nav_order`!
 
-Anything after the front matter is Markdown, just like usual. Below, you'll see a piece of embed code. This is HTML code provided by YouTube, allowing us to embed a video right into our website. To get the embed code of any video you'd like, read [this](https://support.google.com/youtube/answer/171780?hl=en) guide by YouTube. Otherwise, feel free to use the embed code provided below. 
+Anything after the front matter is Markdown, just like usual. Below, you'll see a piece of embed code. This is embed code provided by YouTube, allowing us to embed a video right into our website. To get the embed code of any video on YouTube, read [this](https://support.google.com/youtube/answer/171780?hl=en) guide by YouTube. You can also use embed code from other media sites. Otherwise, feel free to use the embed code provided below. 
 
 - Copy the embed code into your new Markdown file. Feel free to include any other Markdown elements you'd like.
 - **Commit** and save your file when you're done.

@@ -49,7 +49,7 @@ A repository is a container for related materials (i.e. folders and files), that
 - Set your repository visibility to public. 
   - If you have a free GitHub account, you can only create a GitHub Pages website in a public repository. You can read more about it [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
 - Check the box to **Initialize this repository with a README**
-  - Your README file is a plain text file (same as a .txt file) that typically contains descriptive information about your repository (Who made it? What does it contain? What is it for?, etc.). The ```.md``` extension indicates to GitHub that this is a Markdown file (sounds familiar!) One of the nice features of markdown files is that they are readable by almost any applications (and humans), since they are mostly just plain text files.
+  - Your README file is a plain text file (same as a .txt file) that typically contains descriptive information about your repository (Who made it? What does it contain? What is it for?, etc.). The ```.md``` extension indicates to GitHub that this is a Markdown file (sounds familiar!) One of the nice features of markdown files is that they are readable by almost any application (and humans), since they are mostly just plain text files.
 
 - Click the **Create repository** button
 
@@ -65,16 +65,16 @@ You should now see the top-level of your GitHub repository. This section will go
 
 <img src="../assets/img/lessons/github4.png" alt="Image of GitHub file explorer" width="100%">
 
-- In the blue rectangle, you see your file explorer. This is where your repository's directories and files will be found. A new repository will typically contain a README.md file. As previously mentioned, the `.md` extension indicates that this is a Markdown file.
-- In the green rectangle, GitHub renders the README.md file in the current directory (if there is one). Since README is a Markdown file, you can include all the fancy features you learned from the previous lesson. 
-- You'll be able to create or upload files using the "Add file" button in the red rectangle.
+- In the blue rectangle (rectangle 1), you see your file explorer. This is where your repository's directories and files will be found. A new repository will typically contain a README.md file. As previously mentioned, the `.md` extension indicates that this is a Markdown file.
+- In the green rectangle (rectangle 2), GitHub renders the README.md file in the current directory (if there is one). Since README is a Markdown file, you can include all the fancy features you learned from the previous lesson. 
+- You'll be able to create or upload files using the "Add file" button in the red rectangle (rectangle 3).
 
 {:.no_toc}
 ### Repository Statistics
 
 <img src="../assets/img/lessons/github5.png" alt="Image of GitHub repository statistics" width="45%">
 
-- At the very top, you'll be able to find the description you created for your repository (if you made one.) Clicking on the gear icon allows you to change the description, as well as attach a website address and topics. The website and topics will be shown under the description.
+- At the very top, you'll be able to find the description you created for your repository (if you made one). Clicking on the gear icon allows you to change the description, as well as attach a website address and topics. The website and topics will be shown under the description.
 - The Readme button takes you to the same page you're currently on. Below that, you'll find stats for number of stars, number of "watches", and number of forks.
 	- Stars are GitHub's version of "likes." When users like a repository project, they can "Star" it.
     - When a user decides to "Watch" a repository, they'll receive notifications about any activities or changes within the repository.
@@ -97,6 +97,7 @@ In this section, you'll create a file and folder in your repository and upload a
 ### Create a file 
 - In the top-level repository page, click ```Add file > Create new file```.
 - Where prompted to name your file, title it ```index.md```. This creates an empty text file that GitHub will assume contains Markdown code.
+  - Note that you can create any file type with any name. However, we'll be naming it `index.md` for the purposes of this exercise.
 
 <img src="../assets/img/lessons/github7.png" alt="Image of GitHub file creation" width="100%">
 
@@ -112,7 +113,7 @@ In this section, you'll create a file and folder in your repository and upload a
 
 ### Edit your text file
 
-- Click on your ```index.html``` file to view it, and then click the edit button (pencil icon at the top right) to switch to editing mode
+- Click on your ```index.md``` file to view it, and then click the edit button (pencil icon at the top right) to switch to editing mode
 
 <img src="../assets/img/lessons/github9.png" alt="Image of GitHub edit button" width="60%">
 
