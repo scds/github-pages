@@ -40,6 +40,12 @@ You might have found it tedious to create or upload files in GitHub, especially 
 ## Clone your repository to your computer
 In this step, you will clone your existing GitHub repository to your local computer so that you can work on files locally.
 
+### Forking vs Cloning
+The terms "forking" and "cloning" can get confusing, since both of them seem to create a new repository. There is a key difference however.
+
+- Forking a repository creates a duplicate of that repository on your GitHub account. Changes made to the forked repository do not affect the original repository.
+- Cloning makes a local copy of a repository on your own computer. It's like a download, where your changes remain local to your computer. You can later decide whether you want to sync up this clone with your GitHub remote repository.
+
 {: .no_toc}
 ### In GitHub
 - In the top-level of your GitHub repository click the green ```<> Code``` button.
