@@ -172,7 +172,7 @@ Creating new pages from here on is very quick and simple.
 - Create a new Markdown file, and copy the front matter at the top.
     - Don't forget to update the `nav_order`!
 
-Anything after the front matter is Markdown, just like usual. Below, you'll see a piece of embed code. This is embed code provided by YouTube, allowing us to embed a video right into our website. To get the embed code of any video on YouTube, read [this](https://support.google.com/youtube/answer/171780?hl=en) guide by YouTube. You can also use embed code from other media sites. Otherwise, feel free to use the embed code provided below. 
+Anything after the front matter is Markdown, just like usual. Below, you'll see a piece of embed code. This is embed code provided by YouTube, allowing us to embed a video right into our website. To get the embed code of any video on YouTube, read [this guide by YouTube](https://support.google.com/youtube/answer/171780?hl=en). You can also use embed code from other media sites. Otherwise, feel free to use the embed code provided below. 
 
 - Copy the embed code into your new Markdown file. Feel free to include any other Markdown elements you'd like.
 - **Commit** and save your file when you're done.
