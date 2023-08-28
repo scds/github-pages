@@ -1,0 +1,22 @@
+name: Rebuild on Theme Update
+
+on: 
+  repository_dispatch:
+    types: [theme_update]
+  workflow_dispatch:
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        # Optional. Commit message for the created commit.
+        # Defaults to "Apply automatic changes"
+        commit_message: "Bulk Commit - Theme Update"
+        commit_options: '--no-verify --signoff --allow-empty'
+        skip_dirty_check: true 
+        push_options: --force
