@@ -3,6 +3,19 @@ layout: home
 title: Home
 description: A Data Analysis Support Hub Tutorial
 nav_order: 1
+
+bioschemas:
+  "@context": https://schema.org/
+  "@type": LearningResource
+  "@id": "http://learn.scds.ca/github-pages/"
+  "http://purl.org/dc/terms/conformsTo": {
+    "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
+    "@type": "CreativeWork"
+  }
+  name: "Getting Started with GitHub and GitHub Pages"
+  author: ["Sherman Centre for Digital Scholarship"]
+  description: "Maybe you've heard of GitHub and would like to learn more about how it works. Maybe you've heard how it's possible to make easy and simple webpages using GitHub and GitHub Pages and want to try. Or maybe, you knew none of this but are intrigued nonetheless. In any of those cases, this tutorial is for you."
+  keywords: "GitHub, GitHub Pages"
 ---
 
 <img src="assets/img/titleSlide.png" alt="Workshop Title Slide" width="100%">
